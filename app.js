@@ -236,7 +236,7 @@
                 vColor = color;
                 vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
                 gl_PointSize = size * (250.0 / -mvPosition.z);
-                gl_PointSize = clamp(gl_PointSize, 0.5, 25.0);
+                gl_PointSize = clamp(gl_PointSize, 0.5, 300.0);
                 gl_Position = projectionMatrix * mvPosition;
             }
         `;
@@ -526,7 +526,10 @@
         });
 
         canvas.addEventListener('click', () => {
-            if (hoveredIndex >= 0) selectGeneral(hoveredIndex);
+            if (hoveredIndex >= 0) {
+                highlightedIndex = hoveredIndex;
+                selectGeneral(hoveredIndex);
+            }
         });
 
         window.addEventListener('resize', () => {
@@ -848,12 +851,12 @@
             const colors = galaxyPoints.geometry.attributes.color;
             const origSizes = galaxyPoints.userData.originalSizes;
             const origColors = galaxyPoints.userData.originalColors;
-            const pulse = 1.0 + Math.sin(animationTime * 4) * 0.5;
-            // Make highlighted star much larger and brighter
-            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 3 * pulse;
-            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 3);
-            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 3);
-            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 3);
+            const pulse = 1.0 + Math.sin(animationTime * 3) * 0.3;
+            // 巨大化：像太阳一样大
+            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 15 * pulse;
+            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 5);
+            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 5);
+            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 5);
             sizes.needsUpdate = true;
             colors.needsUpdate = true;
         }
