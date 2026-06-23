@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "generals-galaxy",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ]
+}

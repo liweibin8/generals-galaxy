@@ -463,8 +463,9 @@
             if (intersects.length > 0) {
                 // 鼠标指向了某个星星，向该点缩放
                 const point = intersects[0].point;
-                const factor = zoomDelta * 0.15;
-                targetCameraTarget.lerp(point, Math.abs(factor));
+                // 根据缩放方向调整力度：放大(deltaY<0)向星星靠近，缩小(deltaY>0)远离
+                const factor = Math.abs(zoomDelta) * 0.5;
+                targetCameraTarget.lerp(point, factor);
             } else {
                 // 没指向星星，缓慢回到中心
                 targetCameraTarget.lerp(new THREE.Vector3(0, 0, 0), 0.02);
