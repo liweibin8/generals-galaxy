@@ -51,6 +51,7 @@
     let mouse = new THREE.Vector2(-999, -999);
     let raycaster = new THREE.Raycaster();
     let hoveredIndex = -1;
+    let highlightedIndex = -1;
     let selectedGeneral = null;
     let isAutoRotating = true;
     let isDragging = false;
@@ -551,7 +552,7 @@
 
         input.addEventListener('input', () => {
             const query = input.value.trim().toLowerCase();
-            if (query.length === 0) { results.classList.remove('show'); return; }
+            if (query.length === 0) { results.classList.remove('show'); highlightedIndex = -1; return; }
 
             const matches = generalsData
                 .map((g, i) => ({ ...g, _index: i }))
@@ -568,11 +569,15 @@
                         <div class="meta">${g.dynasty || ''} · ${Array.isArray(g.achievements) ? g.achievements[0]?.substring(0, 30) : (g.achievements || '').substring(0, 30)}</div>
                     </div>
                 `).join('');
+                if (matches.length > 0) {
+                    highlightedIndex = matches[0]._index;
+                }
                 results.querySelectorAll('.search-item[data-index]').forEach(el => {
                     el.addEventListener('click', () => {
                         const idx = parseInt(el.dataset.index);
                         flyToGeneral(idx);
                         selectGeneral(idx);
+                        highlightedIndex = idx;
                         results.classList.remove('show');
                         input.value = '';
                     });
@@ -582,6 +587,7 @@
         });
 
         input.addEventListener('blur', () => {
+            highlightedIndex = -1;
             setTimeout(() => results.classList.remove('show'), 200);
         });
     }
@@ -606,6 +612,7 @@
             const idx = Math.floor(Math.random() * generalsData.length);
             flyToGeneral(idx);
             selectGeneral(idx);
+            highlightedIndex = idx;
         });
     }
 
@@ -634,6 +641,15 @@
         }
         colors.needsUpdate = true;
         sizes.needsUpdate = true;
+
+        // Re-apply highlight if the highlighted star still matches the era
+        if (highlightedIndex >= 0 && highlightedIndex < generalsData.length) {
+            const hg = generalsData[highlightedIndex];
+            const stillMatches = era === 'all' || hg.era === era;
+            if (!stillMatches) {
+                highlightedIndex = -1;
+            }
+        }
     }
 
     // ========== 飞向将军 ==========
@@ -728,6 +744,29 @@
         document.getElementById('detail-panel').classList.remove('hidden');
     }
 
+    // ========== 搜索高亮 ==========
+    function highlightStar(index) {
+        highlightedIndex = index;
+        flyToGeneral(index);
+        selectGeneral(index);
+    }
+
+    function clearHighlight() {
+        if (highlightedIndex >= 0 && galaxyPoints) {
+            const sizes = galaxyPoints.geometry.attributes.size;
+            const colors = galaxyPoints.geometry.attributes.color;
+            const origSizes = galaxyPoints.userData.originalSizes;
+            const origColors = galaxyPoints.userData.originalColors;
+            sizes.array[highlightedIndex] = origSizes[highlightedIndex];
+            colors.array[highlightedIndex * 3] = origColors[highlightedIndex * 3];
+            colors.array[highlightedIndex * 3 + 1] = origColors[highlightedIndex * 3 + 1];
+            colors.array[highlightedIndex * 3 + 2] = origColors[highlightedIndex * 3 + 2];
+            sizes.needsUpdate = true;
+            colors.needsUpdate = true;
+        }
+        highlightedIndex = -1;
+    }
+
     // ========== 悬浮提示 ==========
     function updateTooltip(mx, my) {
         if (!galaxyPoints) return;
@@ -803,6 +842,22 @@
             galaxyPoints.rotation.y = Math.sin(animationTime * 0.03) * 0.005;
         }
 
+        // 搜索高亮：脉冲效果
+        if (galaxyPoints && highlightedIndex >= 0) {
+            const sizes = galaxyPoints.geometry.attributes.size;
+            const colors = galaxyPoints.geometry.attributes.color;
+            const origSizes = galaxyPoints.userData.originalSizes;
+            const origColors = galaxyPoints.userData.originalColors;
+            const pulse = 1.0 + Math.sin(animationTime * 4) * 0.5;
+            // Make highlighted star much larger and brighter
+            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 3 * pulse;
+            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 3);
+            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 3);
+            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 3);
+            sizes.needsUpdate = true;
+            colors.needsUpdate = true;
+        }
+
         renderer.render(scene, camera);
     }
 
@@ -814,6 +869,8 @@
         flyToGeneral: flyToGeneral,
         selectGeneral: selectGeneral,
         filterEra: filterEra,
+        highlightStar: highlightStar,
+        clearHighlight: clearHighlight,
     };
 
     // ========== 启动 ==========

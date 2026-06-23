@@ -161,7 +161,7 @@ body {
 
 /* ===== 详情面板 ===== */
 #detail-panel {
-    position: fixed; top: 80px; right: 32px;
+    position: fixed; top: 80px; left: 32px;
     width: 360px; max-height: calc(100vh - 120px);
     background: rgba(10,10,30,0.9);
     border: 1px solid rgba(255,215,0,0.15);
@@ -171,9 +171,9 @@ body {
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
 }
-#detail-panel.hidden { opacity: 0; transform: translateX(40px); pointer-events: none; }
+#detail-panel.hidden { opacity: 0; transform: translateX(-40px); pointer-events: none; }
 #detail-close {
-    position: absolute; top: 12px; right: 16px;
+    position: absolute; top: 12px; left: 16px;
     background: none; border: none; color: rgba(255,255,255,0.4);
     font-size: 1.5rem; cursor: pointer;
 }
@@ -272,3 +272,13 @@ body {
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255,215,0,0.2); border-radius: 2px; }
+
+/* ===== 搜索高亮发光 ===== */
+.search-highlight {
+    box-shadow: 0 0 12px 4px rgba(255, 215, 0, 0.6);
+    animation: search-glow 1.2s ease-in-out infinite alternate;
+}
+@keyframes search-glow {
+    from { box-shadow: 0 0 8px 3px rgba(255, 215, 0, 0.4); }
+    to   { box-shadow: 0 0 20px 8px rgba(255, 215, 0, 0.9); }
+}
