@@ -16,6 +16,8 @@
             '魏晋南北朝': new THREE.Color(0xE040FB), // 紫色
             '隋唐五代': new THREE.Color(0x448AFF),  // 蓝色
             '宋元明清': new THREE.Color(0x69F0AE),  // 绿色
+            '民国':     new THREE.Color(0xFF69B4),  // 粉色
+            '近现代':   new THREE.Color(0x00BCD4),  // 青色
         },
         galaxy: {
             maxRadius: 140,
@@ -147,7 +149,7 @@
         const yearRange = maxYear - minYear || 1;
 
         // 朝代排序
-        const eraOrder = ['先秦', '秦汉', '三国', '魏晋南北朝', '隋唐五代', '宋元明清'];
+        const eraOrder = ['先秦', '秦汉', '三国', '魏晋南北朝', '隋唐五代', '宋元明清', '民国', '近现代'];
         const eraIdx = {};
         eraOrder.forEach((e, i) => eraIdx[e] = i);
         const totalEras = eraOrder.length;
@@ -447,11 +449,6 @@
 
         canvas.addEventListener('wheel', (e) => {
             e.preventDefault();
-            // 射线检测鼠标指向的3D位置
-            const mx = (e.clientX / window.innerWidth) * 2 - 1;
-            const my = -(e.clientY / window.innerHeight) * 2 + 1;
-            raycaster.setFromCamera(new THREE.Vector2(mx, my), camera);
-            const intersects = galaxyPoints ? raycaster.intersectObject(galaxyPoints) : [];
             
             const zoomDelta = e.deltaY * 0.001;
             const newRadius = Math.max(
@@ -460,16 +457,37 @@
                     targetSpherical.radius * (1 + zoomDelta))
             );
             
-            if (intersects.length > 0) {
-                // 鼠标指向了某个星星，向该点缩放
-                const point = intersects[0].point;
-                // 根据缩放方向调整力度：放大(deltaY<0)向星星靠近，缩小(deltaY>0)远离
-                const factor = Math.abs(zoomDelta) * 0.5;
-                targetCameraTarget.lerp(point, factor);
+            // 根据鼠标在屏幕上的位置计算缩放目标点
+            // 鼠标在屏幕中心 = 不移动，鼠标在边缘 = 向那个方向移动
+            const mx = (e.clientX / window.innerWidth) * 2 - 1;  // [-1, 1]
+            const my = -(e.clientY / window.innerHeight) * 2 + 1;  // [-1, 1]
+            
+            // 计算相机的右向量和上向量
+            const cameraDirection = new THREE.Vector3();
+            camera.getWorldDirection(cameraDirection);
+            const cameraRight = new THREE.Vector3().crossVectors(cameraDirection, camera.up).normalize();
+            const cameraUp = new THREE.Vector3().crossVectors(cameraRight, cameraDirection).normalize();
+            
+            // 根据鼠标偏移计算目标点偏移
+            const offsetScale = newRadius * 0.15;  // 偏移量与距离成正比
+            const targetOffset = new THREE.Vector3()
+                .addScaledVector(cameraRight, mx * offsetScale)
+                .addScaledVector(cameraUp, my * offsetScale);
+            
+            // 放大时向鼠标位置靠近，缩小时远离
+            if (zoomDelta < 0) {
+                // 放大：向鼠标指向的方向移动
+                targetCameraTarget.add(targetOffset.multiplyScalar(0.3));
             } else {
-                // 没指向星星，缓慢回到中心
-                targetCameraTarget.lerp(new THREE.Vector3(0, 0, 0), 0.02);
+                // 缩小：向相反方向移动
+                targetCameraTarget.add(targetOffset.multiplyScalar(-0.15));
             }
+            
+            // 限制目标点范围
+            const maxOffset = 200;
+            targetCameraTarget.x = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.x));
+            targetCameraTarget.y = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.y));
+            targetCameraTarget.z = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.z));
             
             targetSpherical.radius = newRadius;
         }, { passive: false });

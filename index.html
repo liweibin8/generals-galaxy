@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>将星河 · 中国古代将军星系</title>
+    <title>古代人物星河 · 中国历史人物星系</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
     <div id="loader">
         <div class="loader-content">
             <div class="loader-ring"></div>
-            <h1>将 星 河</h1>
-            <p>中国古代将军星系</p>
+            <h1>古 代 人 物 星 河</h1>
+            <p>中国历史人物星系</p>
             <p class="loader-status">正在加载星辰数据...</p>
         </div>
     </div>
@@ -22,8 +22,8 @@
 
     <!-- 标题栏 -->
     <div id="header">
-        <h1>将 星 河</h1>
-        <span class="subtitle">中国古代 2101 位将军星系</span>
+        <h1>古 代 人 物 星 河</h1>
+        <span class="subtitle">中国历史人物星系</span>
     </div>
 
     <!-- 朝代筛选器 -->
@@ -35,23 +35,25 @@
         <div class="filter-btn" data-era="魏晋南北朝">魏晋南北朝</div>
         <div class="filter-btn" data-era="隋唐五代">隋唐五代</div>
         <div class="filter-btn" data-era="宋元明清">宋元明清</div>
+        <div class="filter-btn" data-era="民国">民国</div>
+        <div class="filter-btn" data-era="近现代">近现代</div>
     </div>
 
     <!-- 搜索框 + 随机按钮 -->
     <div id="search-box">
-        <button id="random-btn" title="随机匹配一位将军">🎲</button>
-        <input type="text" id="search-input" placeholder="搜索将军..." />
+        <button id="random-btn" title="随机匹配一位历史人物">🎲</button>
+        <input type="text" id="search-input" placeholder="搜索历史人物..." />
         <div id="search-results"></div>
     </div>
 
     <!-- 统计面板 -->
     <div id="stats-panel">
-        <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">总将军数</span></div>
+        <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">总人数</span></div>
         <div class="stat"><span class="stat-num" id="stat-era">0</span><span class="stat-label">朝代数</span></div>
         <div class="stat"><span class="stat-num" id="stat-years">0</span><span class="stat-label">跨越年数</span></div>
     </div>
 
-    <!-- 将军详情面板 -->
+    <!-- 人物详情面板 -->
     <div id="detail-panel" class="hidden">
         <button id="detail-close">&times;</button>
         <div id="detail-content">
