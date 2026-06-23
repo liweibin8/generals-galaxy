@@ -197,7 +197,7 @@
 
             // ===== 颜色 =====
             // 文臣用暖色调，武将用冷色调
-            const generalType = allGenerals[i].gt;
+            const generalType = generalsData[i].gt;
             let color;
             if (generalType === 'civil') {
                 // 文臣：粉色/金色系
