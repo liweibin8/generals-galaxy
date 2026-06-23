@@ -196,7 +196,16 @@
             positions[i * 3 + 2] = z;
 
             // ===== 颜色 =====
-            const color = CONFIG.eraColors[era] || new THREE.Color(0xFFFFFF);
+            // 文臣用暖色调，武将用冷色调
+            const generalType = allGenerals[i].general_type;
+            let color;
+            if (generalType === 'civil') {
+                // 文臣：粉色/金色系
+                color = new THREE.Color().setHSL(0.08 + rng() * 0.05, 0.8, 0.65);
+            } else {
+                // 武将：蓝白色系
+                color = CONFIG.eraColors[era] || new THREE.Color(0xFFFFFF);
+            }
             // 核心区域更亮，外围稍暗
             const distFactor = 0.4 + (1 - finalRadius / CONFIG.galaxy.maxRadius) * 0.6;
             const brightness = (0.3 + fameNorm * 0.7) * distFactor;
