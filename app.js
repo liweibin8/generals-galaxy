@@ -500,6 +500,10 @@
                 targetCameraTarget.z = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.z));
             }
             
+            // 滚轮解除锁定状态
+            if (highlightedIndex >= 0) {
+                highlightedIndex = -1;
+            }
             targetSpherical.radius = newRadius;
         }, { passive: false });
 
@@ -668,7 +672,7 @@
         const z = pos.array[index * 3 + 2];
 
         const dist = Math.sqrt(x * x + y * y + z * z);
-        targetSpherical.radius = Math.max(15, dist * 0.2);
+        targetSpherical.radius = Math.max(8, dist * 0.02);
         targetSpherical.theta = Math.atan2(z, x);
         const r = Math.sqrt(x * x + y * y + z * z);
         targetSpherical.phi = r > 0 ? Math.acos(Math.max(-1, Math.min(1, y / r))) : Math.PI / 2;
@@ -848,7 +852,7 @@
             targetCameraTarget.set(sx, sy, sz);
             // 视野拉近
             const starDist = Math.sqrt(sx * sx + sy * sy + sz * sz);
-            targetSpherical.radius = Math.max(15, starDist * 0.2);
+            targetSpherical.radius = Math.max(8, starDist * 0.02);
             isAutoRotating = true;
         }
 
