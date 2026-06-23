@@ -57,6 +57,8 @@
     let targetSpherical = new THREE.Spherical(CONFIG.camera.initDistance, Math.PI / 2.5, 0);
     let currentEra = 'all';
     let animationTime = 0;
+    let cameraTarget = new THREE.Vector3(0, 0, 0);  // 相机注视点（可偏移）
+    let targetCameraTarget = new THREE.Vector3(0, 0, 0);
 
     // ========== 初始化 ==========
     function init() {
@@ -436,11 +438,30 @@
 
         canvas.addEventListener('wheel', (e) => {
             e.preventDefault();
-            targetSpherical.radius = Math.max(
+            // 射线检测鼠标指向的3D位置
+            const mx = (e.clientX / window.innerWidth) * 2 - 1;
+            const my = -(e.clientY / window.innerHeight) * 2 + 1;
+            raycaster.setFromCamera(new THREE.Vector2(mx, my), camera);
+            const intersects = galaxyPoints ? raycaster.intersectObject(galaxyPoints) : [];
+            
+            const zoomDelta = e.deltaY * 0.001;
+            const newRadius = Math.max(
                 CONFIG.camera.minDistance,
                 Math.min(CONFIG.camera.maxDistance,
-                    targetSpherical.radius + e.deltaY * 0.15)
+                    targetSpherical.radius * (1 + zoomDelta))
             );
+            
+            if (intersects.length > 0) {
+                // 鼠标指向了某个星星，向该点缩放
+                const point = intersects[0].point;
+                const factor = zoomDelta * 0.15;
+                targetCameraTarget.lerp(point, Math.abs(factor));
+            } else {
+                // 没指向星星，缓慢回到中心
+                targetCameraTarget.lerp(new THREE.Vector3(0, 0, 0), 0.02);
+            }
+            
+            targetSpherical.radius = newRadius;
         }, { passive: false });
 
         // 触摸支持
@@ -578,6 +599,9 @@
         targetSpherical.theta = Math.atan2(z, x);
         const r = Math.sqrt(x * x + y * y + z * z);
         targetSpherical.phi = r > 0 ? Math.acos(Math.max(-1, Math.min(1, y / r))) : Math.PI / 2;
+        
+        // 注视点飞向该将军
+        targetCameraTarget.set(x, y, z);
     }
 
     // ========== 选中将军 ==========
@@ -593,16 +617,34 @@
             <div class="meta-item"><span class="label">生卒</span><span class="value">${g.birth_year || '?'}-${g.death_year || '?'}</span></div>
         `;
 
-        const achDiv = document.getElementById('detail-achievements');
-        achDiv.textContent = g.achievements || '';
-        achDiv.style.display = g.achievements ? 'block' : 'none';
+        // 生平与战绩（优先显示 biography，回退到 achievements）
+        const bioDiv = document.getElementById('detail-biography');
+        const bioText = g.biography || g.achievements || '';
+        if (bioText) {
+            bioDiv.textContent = bioText;
+            bioDiv.style.display = 'block';
+        } else {
+            bioDiv.style.display = 'none';
+        }
 
+        // 战役
         const battlesDiv = document.getElementById('detail-battles');
-        if (g.battles && g.battles.length > 0) {
-            battlesDiv.innerHTML = g.battles.map(b => `<span class="battle-tag">${b}</span>`).join('');
+        const battlesList = Array.isArray(g.battles) ? g.battles :
+            (typeof g.battles === 'string' ? g.battles.split(/[·、，,]/).filter(Boolean) : []);
+        if (battlesList.length > 0) {
+            battlesDiv.innerHTML = battlesList.map(b => `<span class="battle-tag">${b.trim()}</span>`).join('');
             battlesDiv.style.display = 'block';
         } else {
             battlesDiv.style.display = 'none';
+        }
+
+        // 史学评价
+        const evalDiv = document.getElementById('detail-evaluation');
+        if (g.evaluation) {
+            evalDiv.textContent = g.evaluation;
+            evalDiv.style.display = 'block';
+        } else {
+            evalDiv.style.display = 'none';
         }
 
         const quoteDiv = document.getElementById('detail-quote');
@@ -693,9 +735,12 @@
         spherical.radius += (targetSpherical.radius - spherical.radius) * 0.04;
         spherical.theta += (targetSpherical.theta - spherical.theta) * 0.04;
         spherical.phi += (targetSpherical.phi - spherical.phi) * 0.04;
+        
+        // 平滑插值相机注视点
+        cameraTarget.lerp(targetCameraTarget, 0.04);
 
-        camera.position.setFromSpherical(spherical);
-        camera.lookAt(0, 0, 0);
+        camera.position.setFromSpherical(spherical).add(cameraTarget);
+        camera.lookAt(cameraTarget);
 
         // 背景星空缓慢旋转
         if (backgroundStars) {
