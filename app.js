@@ -10,6 +10,7 @@
     // ========== 配置 ==========
     const CONFIG = {
         eraColors: {
+            '上古':     new THREE.Color(0xFFFFFF),  // 纯白色（神话光芒）
             '先秦':     new THREE.Color(0xFFD700),  // 金色
             '秦汉':     new THREE.Color(0xFF6B35),  // 橙色
             '三国':     new THREE.Color(0xFF1744),  // 红色
@@ -150,7 +151,7 @@
         const yearRange = maxYear - minYear || 1;
 
         // 朝代排序
-        const eraOrder = ['先秦', '秦汉', '三国', '魏晋南北朝', '隋唐五代', '宋元明清', '民国', '近现代'];
+        const eraOrder = ['上古', '先秦', '秦汉', '三国', '魏晋南北朝', '隋唐五代', '宋元明清', '民国', '近现代'];
         const eraIdx = {};
         eraOrder.forEach((e, i) => eraIdx[e] = i);
         const totalEras = eraOrder.length;
