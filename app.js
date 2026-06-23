@@ -93,9 +93,9 @@
             .then(r => r.json())
             .then(data => {
                 generalsData = data;
-                data.forEach((g, i) => currentIndexMap.set(g.n, i));
+                data.forEach((g, i) => currentIndexMap.set(g.name, i));
                 document.getElementById('stat-total').textContent = data.length;
-                const eras = new Set(data.map(g => g.e));
+                const eras = new Set(data.map(g => g.era));
                 document.getElementById('stat-era').textContent = eras.size;
                 const years = getYearRange(data);
                 document.getElementById('stat-years').textContent = years;
@@ -114,8 +114,8 @@
     function getYearRange(data) {
         let min = Infinity, max = -Infinity;
         data.forEach(g => {
-            if (g.by && g.by < min) min = g.by;
-            if (g.dy && g.dy > max) max = g.dy;
+            if (g.birth_year && g.birth_year < min) min = g.birth_year;
+            if (g.death_year && g.death_year > max) max = g.death_year;
         });
         return max - min;
     }
@@ -140,7 +140,7 @@
         // 年份范围
         let minYear = Infinity, maxYear = -Infinity;
         generalsData.forEach(g => {
-            const y = g.by || g.dy || 500;
+            const y = g.birth_year || g.death_year || 500;
             if (y < minYear) minYear = y;
             if (y > maxYear) maxYear = y;
         });
@@ -154,10 +154,10 @@
 
         for (let i = 0; i < count; i++) {
             const g = generalsData[i];
-            const era = g.e || '先秦';
+            const era = g.era || '先秦';
             const arm = eraIdx[era] !== undefined ? eraIdx[era] : 0;
-            const fame = g.f || g.r || 5;
-            const birthYear = g.by || g.dy || 500;
+            const fame = g.fame || g.rank || 5;
+            const birthYear = g.birth_year || g.death_year || 500;
             const t = (birthYear - minYear) / yearRange; // [0, 1] 时间归一化
 
             const rng = seededRandom(i * 7 + 42);
@@ -197,7 +197,7 @@
 
             // ===== 颜色 =====
             // 文臣用暖色调，武将用冷色调
-            const generalType = generalsData[i].gt;
+            const generalType = allGenerals[i].gt;
             let color;
             if (generalType === 'civil') {
                 // 文臣：粉色/金色系
@@ -527,8 +527,8 @@
 
             const matches = generalsData
                 .map((g, i) => ({ ...g, _index: i }))
-                .filter(g => g.n.toLowerCase().includes(query) ||
-                    (g.d && g.d.includes(query)))
+                .filter(g => g.name.toLowerCase().includes(query) ||
+                    (g.dynasty && g.dynasty.includes(query)))
                 .slice(0, 15);
 
             if (matches.length === 0) {
@@ -536,8 +536,8 @@
             } else {
                 results.innerHTML = matches.map(g => `
                     <div class="search-item" data-index="${g._index}">
-                        <div class="name">${g.n}</div>
-                        <div class="meta">${g.d || ''} · ${Array.isArray(g.a) ? g.a[0]?.substring(0, 30) : (g.a || '').substring(0, 30)}</div>
+                        <div class="name">${g.name}</div>
+                        <div class="meta">${g.dynasty || ''} · ${Array.isArray(g.achievements) ? g.achievements[0]?.substring(0, 30) : (g.achievements || '').substring(0, 30)}</div>
                     </div>
                 `).join('');
                 results.querySelectorAll('.search-item[data-index]').forEach(el => {
@@ -590,7 +590,7 @@
 
         for (let i = 0; i < generalsData.length; i++) {
             const g = generalsData[i];
-            const matches = era === 'all' || g.e === era;
+            const matches = era === 'all' || g.era === era;
 
             if (matches) {
                 colors.array[i * 3] = origColors[i * 3];
@@ -630,19 +630,19 @@
         const g = generalsData[index];
         selectedGeneral = g;
 
-        document.getElementById('detail-name').textContent = g.n;
-        document.getElementById('detail-title').textContent = g.t || '';
+        document.getElementById('detail-name').textContent = g.name;
+        document.getElementById('detail-title').textContent = g.title || '';
 
         document.getElementById('detail-meta').innerHTML = `
-            <div class="meta-item"><span class="label">朝代</span><span class="value">${g.d || '未知'}</span></div>
-            <div class="meta-item"><span class="label">生卒</span><span class="value">${g.by || '?'}-${g.dy || '?'}</span></div>
+            <div class="meta-item"><span class="label">朝代</span><span class="value">${g.dynasty || '未知'}</span></div>
+            <div class="meta-item"><span class="label">生卒</span><span class="value">${g.birth_year || '?'}-${g.death_year || '?'}</span></div>
         `;
 
         // 生平与战绩（优先显示 biography，回退到 achievements）
         const bioDiv = document.getElementById('detail-biography');
-        let bioText = g.bio || '';
-        if (!bioText && g.a) {
-            bioText = Array.isArray(g.a) ? g.a.join('；') : g.a;
+        let bioText = g.biography || '';
+        if (!bioText && g.achievements) {
+            bioText = Array.isArray(g.achievements) ? g.achievements.join('；') : g.achievements;
         }
         if (bioText) {
             bioDiv.textContent = bioText;
@@ -653,8 +653,8 @@
 
         // 战役
         const battlesDiv = document.getElementById('detail-battles');
-        const battlesList = Array.isArray(g.b) ? g.b :
-            (typeof g.b === 'string' ? g.b.split(/[·、，,]/).filter(Boolean) : []);
+        const battlesList = Array.isArray(g.battles) ? g.battles :
+            (typeof g.battles === 'string' ? g.battles.split(/[·、，,]/).filter(Boolean) : []);
         if (battlesList.length > 0) {
             battlesDiv.innerHTML = battlesList.map(b => `<span class="battle-tag">${b.trim()}</span>`).join('');
             battlesDiv.style.display = 'block';
@@ -664,8 +664,8 @@
 
         // 史学评价
         const evalDiv = document.getElementById('detail-evaluation');
-        if (g.ev) {
-            evalDiv.textContent = g.ev;
+        if (g.evaluation) {
+            evalDiv.textContent = g.evaluation;
             evalDiv.style.display = 'block';
         } else {
             evalDiv.style.display = 'none';
@@ -680,26 +680,19 @@
         }
 
         const relDiv = document.getElementById('detail-relationships');
-        if (g.relationships && Object.keys(g.relationships).length > 0) {
-            let html = '';
-            for (const [type, names] of Object.entries(g.relationships)) {
-                html += `<div class="rel-group"><span class="rel-label">${type}：</span>`;
-                names.forEach(n => { html += `<span class="rel-name" data-name="${n}">${n}</span>`; });
-                html += '</div>';
-            }
+        if (g.relationships && g.relationships.length > 0) {
+            let html = '<div class="rel-group"><span class="rel-label">人物关系：</span>';
+            g.relationships.forEach(rel => {
+                html += `<span class="rel-name">${rel}</span>`;
+            });
+            html += '</div>';
             relDiv.innerHTML = html;
             relDiv.style.display = 'block';
-            relDiv.querySelectorAll('.rel-name').forEach(el => {
-                el.addEventListener('click', () => {
-                    const idx = currentIndexMap.get(el.dataset.name);
-                    if (idx !== undefined) { flyToGeneral(idx); selectGeneral(idx); }
-                });
-            });
         } else {
             relDiv.style.display = 'none';
         }
 
-        const fame = g.f || g.r || 5;
+        const fame = g.fame || g.rank || 5;
         document.getElementById('detail-stars').innerHTML =
             '⭐'.repeat(Math.min(fame, 10)) +
             ` <span style="font-size:0.8rem;color:rgba(255,255,255,0.4)">${fame}/10</span>`;
@@ -721,8 +714,8 @@
             if (idx !== hoveredIndex) {
                 hoveredIndex = idx;
                 tooltip.innerHTML = `
-                    <div class="tt-name">${g.n}</div>
-                    <div class="tt-dynasty">${g.d || ''} · ${g.by || '?'}-${g.dy || '?'}</div>
+                    <div class="tt-name">${g.name}</div>
+                    <div class="tt-dynasty">${g.dynasty || ''} · ${g.birth_year || '?'}-${g.death_year || '?'}</div>
                 `;
                 tooltip.classList.remove('hidden');
                 document.body.style.cursor = 'pointer';
