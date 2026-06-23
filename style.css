@@ -89,7 +89,27 @@ body {
 /* ===== 搜索框 ===== */
 #search-box {
     position: fixed; top: 24px; right: 32px;
+    display: flex; gap: 8px; align-items: center;
     z-index: 10;
+}
+#random-btn {
+    width: 38px; height: 38px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex; align-items: center; justify-content: center;
+    color: #fff;
+}
+#random-btn:hover {
+    background: rgba(255,215,0,0.2);
+    border-color: rgba(255,215,0,0.4);
+    transform: rotate(180deg) scale(1.1);
+}
+#random-btn:active {
+    transform: rotate(360deg) scale(0.95);
 }
 #search-input {
     background: rgba(255,255,255,0.08);

@@ -499,6 +499,7 @@
 
         setupSearch();
         setupEraFilter();
+        setupRandomBtn();
 
         document.getElementById('detail-close').addEventListener('click', () => {
             document.getElementById('detail-panel').classList.add('hidden');
@@ -557,6 +558,17 @@
                 currentEra = btn.dataset.era;
                 filterEra(currentEra);
             });
+        });
+    }
+
+    // ========== 随机按钮 ==========
+    function setupRandomBtn() {
+        const btn = document.getElementById('random-btn');
+        btn.addEventListener('click', () => {
+            if (generalsData.length === 0) return;
+            const idx = Math.floor(Math.random() * generalsData.length);
+            flyToGeneral(idx);
+            selectGeneral(idx);
         });
     }
 
