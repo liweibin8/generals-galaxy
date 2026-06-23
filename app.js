@@ -236,7 +236,7 @@
                 vColor = color;
                 vec4 mvPosition = modelViewMatrix * vec4(position, 1.0);
                 gl_PointSize = size * (250.0 / -mvPosition.z);
-                gl_PointSize = clamp(gl_PointSize, 0.5, 300.0);
+                gl_PointSize = clamp(gl_PointSize, 0.5, 800.0);
                 gl_Position = projectionMatrix * mvPosition;
             }
         `;
@@ -663,7 +663,7 @@
         const z = pos.array[index * 3 + 2];
 
         const dist = Math.sqrt(x * x + y * y + z * z);
-        targetSpherical.radius = Math.max(25, dist * 0.4);
+        targetSpherical.radius = Math.max(20, dist * 0.35);
         targetSpherical.theta = Math.atan2(z, x);
         const r = Math.sqrt(x * x + y * y + z * z);
         targetSpherical.phi = r > 0 ? Math.acos(Math.max(-1, Math.min(1, y / r))) : Math.PI / 2;
@@ -845,20 +845,28 @@
             galaxyPoints.rotation.y = Math.sin(animationTime * 0.03) * 0.005;
         }
 
-        // 搜索高亮：脉冲效果
+        // 搜索高亮：超级巨大化 + 相机环绕
         if (galaxyPoints && highlightedIndex >= 0) {
             const sizes = galaxyPoints.geometry.attributes.size;
             const colors = galaxyPoints.geometry.attributes.color;
+            const positions = galaxyPoints.geometry.attributes.position;
             const origSizes = galaxyPoints.userData.originalSizes;
             const origColors = galaxyPoints.userData.originalColors;
-            const pulse = 1.0 + Math.sin(animationTime * 3) * 0.3;
-            // 巨大化：像太阳一样大
-            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 15 * pulse;
-            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 5);
-            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 5);
-            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 5);
+            const pulse = 1.0 + Math.sin(animationTime * 2) * 0.2;
+            // 150倍巨大化，耀眼光芒
+            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 150 * pulse;
+            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 10);
+            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 10);
+            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 10);
             sizes.needsUpdate = true;
             colors.needsUpdate = true;
+
+            // 相机环绕这颗星旋转
+            const sx = positions.array[highlightedIndex * 3];
+            const sy = positions.array[highlightedIndex * 3 + 1];
+            const sz = positions.array[highlightedIndex * 3 + 2];
+            targetCameraTarget.set(sx, sy, sz);
+            isAutoRotating = true;
         }
 
         renderer.render(scene, camera);
