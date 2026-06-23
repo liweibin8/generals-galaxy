@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>将星河 · 中国古代将军星系</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 加载画面 -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <h1>将 星 河</h1>
+            <p>中国古代将军星系</p>
+            <p class="loader-status">正在加载星辰数据...</p>
+        </div>
+    </div>
+
+    <!-- 主画布 -->
+    <canvas id="galaxy-canvas"></canvas>
+
+    <!-- 标题栏 -->
+    <div id="header">
+        <h1>将 星 河</h1>
+        <span class="subtitle">中国古代 2101 位将军星系</span>
+    </div>
+
+    <!-- 朝代筛选器 -->
+    <div id="era-filter">
+        <div class="filter-btn active" data-era="all">全部</div>
+        <div class="filter-btn" data-era="先秦">先秦</div>
+        <div class="filter-btn" data-era="秦汉">秦汉</div>
+        <div class="filter-btn" data-era="三国">三国</div>
+        <div class="filter-btn" data-era="魏晋南北朝">魏晋南北朝</div>
+        <div class="filter-btn" data-era="隋唐五代">隋唐五代</div>
+        <div class="filter-btn" data-era="宋元明清">宋元明清</div>
+    </div>
+
+    <!-- 搜索框 -->
+    <div id="search-box">
+        <input type="text" id="search-input" placeholder="搜索将军..." />
+        <div id="search-results"></div>
+    </div>
+
+    <!-- 统计面板 -->
+    <div id="stats-panel">
+        <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">总将军数</span></div>
+        <div class="stat"><span class="stat-num" id="stat-era">0</span><span class="stat-label">朝代数</span></div>
+        <div class="stat"><span class="stat-num" id="stat-years">0</span><span class="stat-label">跨越年数</span></div>
+    </div>
+
+    <!-- 将军详情面板 -->
+    <div id="detail-panel" class="hidden">
+        <button id="detail-close">&times;</button>
+        <div id="detail-content">
+            <h2 id="detail-name"></h2>
+            <div id="detail-title"></div>
+            <div id="detail-meta"></div>
+            <div id="detail-achievements"></div>
+            <div id="detail-battles"></div>
+            <div id="detail-quote"></div>
+            <div id="detail-relationships"></div>
+            <div id="detail-stars"></div>
+        </div>
+    </div>
+
+    <!-- 悬浮提示 -->
+    <div id="tooltip" class="hidden"></div>
+
+    <!-- 控制提示 -->
+    <div id="controls-hint">
+        🖱 滚轮缩放 · 拖拽旋转 · 点击查看详情
+    </div>
+
+    <script src="three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
