@@ -73609,5 +73609,3925 @@
     "death_year": 1976,
     "title": "秘书长",
     "general_type": "civil"
+  },
+  {
+    "name": "翁同龢",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1830,
+    "death_year": 1904,
+    "title": "户部尚书",
+    "achievements": [
+      "支持戊戌变法",
+      "帝师"
+    ],
+    "biography": "光绪帝师，支持维新变法，\"翁同龢日记\"是研究晚清历史的重要资料",
+    "evaluation": "光绪帝师，支持维新变法，\"翁同龢日记\"是研究晚清历史的重要资料",
+    "general_type": "civil"
+  },
+  {
+    "name": "荣禄",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1836,
+    "death_year": 1903,
+    "title": "军机大臣",
+    "achievements": [
+      "镇压戊戌变法",
+      "支持庚子议和"
+    ],
+    "biography": "晚清权臣，慈禧太后亲信，对晚清政局有重要影响",
+    "evaluation": "晚清权臣，慈禧太后亲信，对晚清政局有重要影响",
+    "general_type": "military"
+  },
+  {
+    "name": "奕䜣",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1833,
+    "death_year": 1898,
+    "title": "恭亲王",
+    "achievements": [
+      "推动洋务运动",
+      "主持总理衙门"
+    ],
+    "biography": "晚清最重要的改革派亲王，\"鬼子六\"，洋务运动的倡导者",
+    "evaluation": "晚清最重要的改革派亲王，\"鬼子六\"，洋务运动的倡导者",
+    "general_type": "civil"
+  },
+  {
+    "name": "奕譞",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1840,
+    "death_year": 1891,
+    "title": "醇亲王",
+    "achievements": [
+      "创办海军衙门",
+      "修建颐和园"
+    ],
+    "biography": "光绪帝生父，晚清重要亲王",
+    "evaluation": "光绪帝生父，晚清重要亲王",
+    "general_type": "civil"
+  },
+  {
+    "name": "鹿传霖",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1836,
+    "death_year": 1910,
+    "title": "军机大臣",
+    "achievements": [
+      "推行新政"
+    ],
+    "biography": "晚清重臣，清末新政的重要推动者",
+    "evaluation": "晚清重臣，清末新政的重要推动者",
+    "general_type": "civil"
+  },
+  {
+    "name": "瞿鸿禨",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1850,
+    "death_year": 1918,
+    "title": "军机大臣",
+    "achievements": [
+      "推行新政",
+      "支持立宪"
+    ],
+    "biography": "晚清重臣，清末新政的重要推动者",
+    "evaluation": "晚清重臣，清末新政的重要推动者",
+    "general_type": "civil"
+  },
+  {
+    "name": "洪秀全",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1814,
+    "death_year": 1864,
+    "title": "天王",
+    "achievements": [
+      "创建太平天国",
+      "发动太平天国运动"
+    ],
+    "biography": "太平天国创建者，中国历史上最大规模农民起义的领袖",
+    "evaluation": "太平天国创建者，中国历史上最大规模农民起义的领袖",
+    "general_type": "military"
+  },
+  {
+    "name": "洪仁玕",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1822,
+    "death_year": 1864,
+    "title": "干王",
+    "achievements": [
+      "提出《资政新篇》",
+      "太平天国改革"
+    ],
+    "biography": "太平天国干王，《资政新篇》作者，中国近代最早的改革方案提出者",
+    "evaluation": "太平天国干王，《资政新篇》作者，中国近代最早的改革方案提出者",
+    "general_type": "civil"
+  },
+  {
+    "name": "魏源",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1794,
+    "death_year": 1857,
+    "title": "知州",
+    "achievements": [
+      "编写《海国图志》",
+      "提出\"师夷长技以制夷\""
+    ],
+    "biography": "晚清思想家，《海国图志》作者，\"师夷长技以制夷\"思想的提出者",
+    "evaluation": "晚清思想家，《海国图志》作者，\"师夷长技以制夷\"思想的提出者",
+    "general_type": "civil"
+  },
+  {
+    "name": "严复",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1854,
+    "death_year": 1921,
+    "title": "京师大学堂总办",
+    "achievements": [
+      "翻译《天演论》",
+      "传播西方思想"
+    ],
+    "biography": "中国近代最重要的翻译家和启蒙思想家，\"物竞天择，适者生存\"的传播者",
+    "evaluation": "中国近代最重要的翻译家和启蒙思想家，\"物竞天择，适者生存\"的传播者",
+    "general_type": "civil"
+  },
+  {
+    "name": "康有为",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1858,
+    "death_year": 1927,
+    "title": "工部主事",
+    "achievements": [
+      "领导戊戌变法",
+      "公车上书"
+    ],
+    "biography": "戊戌变法领袖，中国近代最重要的改革家之一",
+    "evaluation": "戊戌变法领袖，中国近代最重要的改革家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "梁启超",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1873,
+    "death_year": 1929,
+    "title": "司法总长",
+    "achievements": [
+      "领导戊戌变法",
+      "新文化运动先驱"
+    ],
+    "biography": "戊戌变法领袖，中国近代最杰出的思想家和学者之一，\"饮冰室主人\"",
+    "evaluation": "戊戌变法领袖，中国近代最杰出的思想家和学者之一，\"饮冰室主人\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "谭嗣同",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1865,
+    "death_year": 1898,
+    "title": "军机章京",
+    "achievements": [
+      "戊戌六君子",
+      "著《仁学》"
+    ],
+    "biography": "戊戌六君子之一，\"我自横刀向天笑，去留肝胆两昆仑\"",
+    "evaluation": "戊戌六君子之一，\"我自横刀向天笑，去留肝胆两昆仑\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "黄遵宪",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1848,
+    "death_year": 1905,
+    "title": "驻日公使",
+    "achievements": [
+      "诗界革命",
+      "推动维新"
+    ],
+    "biography": "晚清著名诗人和外交家，\"诗界革命\"的倡导者",
+    "evaluation": "晚清著名诗人和外交家，\"诗界革命\"的倡导者",
+    "general_type": "civil"
+  },
+  {
+    "name": "章太炎",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1869,
+    "death_year": 1936,
+    "title": "东三省筹边使",
+    "achievements": [
+      "国学大师",
+      "革命先驱"
+    ],
+    "biography": "中国近代最杰出的国学大师和革命家之一",
+    "evaluation": "中国近代最杰出的国学大师和革命家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "王国维",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1877,
+    "death_year": 1927,
+    "title": "清华大学教授",
+    "achievements": [
+      "《人间词话》",
+      "甲骨文研究"
+    ],
+    "biography": "中国近代最杰出的学者之一，\"三境界说\"的提出者",
+    "evaluation": "中国近代最杰出的学者之一，\"三境界说\"的提出者",
+    "general_type": "civil"
+  },
+  {
+    "name": "罗振玉",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1866,
+    "death_year": 1940,
+    "title": "学部参事",
+    "achievements": [
+      "甲骨文研究先驱",
+      "敦煌学奠基"
+    ],
+    "biography": "中国近代最重要的考古学家和学者之一，甲骨文研究的先驱",
+    "evaluation": "中国近代最重要的考古学家和学者之一，甲骨文研究的先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "辜鸿铭",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1857,
+    "death_year": 1928,
+    "title": "北京大学教授",
+    "achievements": [
+      "文化保守主义",
+      "精通多国语言"
+    ],
+    "biography": "\"文化怪杰\"，精通9种语言，获13个博士学位，中国文化的坚定捍卫者",
+    "evaluation": "\"文化怪杰\"，精通9种语言，获13个博士学位，中国文化的坚定捍卫者",
+    "general_type": "civil"
+  },
+  {
+    "name": "林纾",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1852,
+    "death_year": 1924,
+    "title": "京师大学堂教习",
+    "achievements": [
+      "翻译外国小说",
+      "古文大家"
+    ],
+    "biography": "中国近代最重要的翻译家之一，\"林译小说\"影响了一代人",
+    "evaluation": "中国近代最重要的翻译家之一，\"林译小说\"影响了一代人",
+    "general_type": "civil"
+  },
+  {
+    "name": "马建忠",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1845,
+    "death_year": 1900,
+    "title": "道台",
+    "achievements": [
+      "著《马氏文通》",
+      "洋务运动"
+    ],
+    "biography": "中国近代语言学家，《马氏文通》作者，中国语法学的奠基人",
+    "evaluation": "中国近代语言学家，《马氏文通》作者，中国语法学的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "郑观应",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1842,
+    "death_year": 1922,
+    "title": "招商局总办",
+    "achievements": [
+      "著《盛世危言》",
+      "实业救国"
+    ],
+    "biography": "近代著名思想家和实业家，《盛世危言》对青年毛泽东影响很大",
+    "evaluation": "近代著名思想家和实业家，《盛世危言》对青年毛泽东影响很大",
+    "general_type": "civil"
+  },
+  {
+    "name": "薛福成",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1838,
+    "death_year": 1894,
+    "title": "出使英法意比大臣",
+    "achievements": [
+      "洋务思想家",
+      "外交家"
+    ],
+    "biography": "晚清著名外交家和思想家，洋务运动的重要理论家",
+    "evaluation": "晚清著名外交家和思想家，洋务运动的重要理论家",
+    "general_type": "civil"
+  },
+  {
+    "name": "容闳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1828,
+    "death_year": 1912,
+    "title": "驻美副公使",
+    "achievements": [
+      "中国留学生之父",
+      "推动幼童留美"
+    ],
+    "biography": "\"中国留学生之父\"，耶鲁大学毕业的第一个中国人",
+    "evaluation": "\"中国留学生之父\"，耶鲁大学毕业的第一个中国人",
+    "general_type": "civil"
+  },
+  {
+    "name": "詹天佑",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1861,
+    "death_year": 1919,
+    "title": "铁路工程师",
+    "achievements": [
+      "修建京张铁路",
+      "中国铁路之父"
+    ],
+    "biography": "\"中国铁路之父\"，京张铁路的设计者，中国近代工程技术的先驱",
+    "evaluation": "\"中国铁路之父\"，京张铁路的设计者，中国近代工程技术的先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "冯桂芬",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1809,
+    "death_year": 1874,
+    "title": "翰林院编修",
+    "achievements": [
+      "著《校邠庐抗议》",
+      "洋务思想先驱"
+    ],
+    "biography": "晚清思想家，洋务运动的理论先驱",
+    "evaluation": "晚清思想家，洋务运动的理论先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "张謇",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1853,
+    "death_year": 1926,
+    "title": "实业家",
+    "achievements": [
+      "状元实业家",
+      "创办大生纱厂"
+    ],
+    "biography": "清末状元，中国近代最重要的实业家之一，\"实业救国\"的践行者",
+    "evaluation": "清末状元，中国近代最重要的实业家之一，\"实业救国\"的践行者",
+    "general_type": "civil"
+  },
+  {
+    "name": "盛宣怀",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1844,
+    "death_year": 1916,
+    "title": "邮传部大臣",
+    "achievements": [
+      "创办轮船招商局",
+      "中国实业之父"
+    ],
+    "biography": "\"中国实业之父\"，洋务运动最重要的实业家",
+    "evaluation": "\"中国实业之父\"，洋务运动最重要的实业家",
+    "general_type": "civil"
+  },
+  {
+    "name": "胡雪岩",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1823,
+    "death_year": 1885,
+    "title": "布政使",
+    "achievements": [
+      "红顶商人",
+      "创办胡庆余堂"
+    ],
+    "biography": "晚清最著名的\"红顶商人\"，中国近代最成功的商人之一",
+    "evaluation": "晚清最著名的\"红顶商人\"，中国近代最成功的商人之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "周学熙",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1866,
+    "death_year": 1947,
+    "title": "财政总长",
+    "achievements": [
+      "创办启新洋灰公司",
+      "北方实业巨头"
+    ],
+    "biography": "民国著名实业家，与张謇并称\"南张北周\"",
+    "evaluation": "民国著名实业家，与张謇并称\"南张北周\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "范旭东",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1883,
+    "death_year": 1945,
+    "title": "实业家",
+    "achievements": [
+      "创办久大精盐公司",
+      "中国化学工业之父"
+    ],
+    "biography": "\"中国化学工业之父\"，中国近代化学工业的奠基人",
+    "evaluation": "\"中国化学工业之父\"，中国近代化学工业的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "卢作孚",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1952,
+    "title": "实业家",
+    "achievements": [
+      "创办民生公司",
+      "宜昌大撤退"
+    ],
+    "biography": "中国近代最杰出的实业家之一，\"宜昌大撤退\"的组织者",
+    "evaluation": "中国近代最杰出的实业家之一，\"宜昌大撤退\"的组织者",
+    "general_type": "civil"
+  },
+  {
+    "name": "荣宗敬",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1873,
+    "death_year": 1938,
+    "title": "实业家",
+    "achievements": [
+      "创办申新纱厂",
+      "面粉大王"
+    ],
+    "biography": "民国著名实业家，\"面粉大王\"和\"棉纱大王\"",
+    "evaluation": "民国著名实业家，\"面粉大王\"和\"棉纱大王\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "荣德生",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1875,
+    "death_year": 1952,
+    "title": "实业家",
+    "achievements": [
+      "创办茂新面粉厂",
+      "实业救国"
+    ],
+    "biography": "荣宗敬之弟，民国著名实业家",
+    "evaluation": "荣宗敬之弟，民国著名实业家",
+    "general_type": "civil"
+  },
+  {
+    "name": "穆藕初",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1876,
+    "death_year": 1943,
+    "title": "实业家",
+    "achievements": [
+      "创办德大纱厂",
+      "科学管理先驱"
+    ],
+    "biography": "民国著名实业家，中国近代科学管理的先驱",
+    "evaluation": "民国著名实业家，中国近代科学管理的先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "马玉昆",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1838,
+    "death_year": 1908,
+    "title": "直隶提督",
+    "achievements": [
+      "甲午战争抗日",
+      "庚子御敌"
+    ],
+    "biography": "清末著名将领，甲午战争和庚子事变中均英勇作战",
+    "evaluation": "清末著名将领，甲午战争和庚子事变中均英勇作战",
+    "general_type": "military"
+  },
+  {
+    "name": "宋庆",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1820,
+    "death_year": 1902,
+    "title": "四川提督",
+    "achievements": [
+      "甲午战争抗日"
+    ],
+    "biography": "清末著名将领，甲午战争中率军抗日",
+    "evaluation": "清末著名将领，甲午战争中率军抗日",
+    "general_type": "military"
+  },
+  {
+    "name": "孙中山",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1866,
+    "death_year": 1925,
+    "title": "临时大总统",
+    "achievements": [
+      "创建同盟会",
+      "领导辛亥革命",
+      "创建中华民国",
+      "提出三民主义"
+    ],
+    "biography": "中华民国国父，中国民主革命的先行者，三民主义的创立者",
+    "evaluation": "中华民国国父，中国民主革命的先行者，三民主义的创立者",
+    "general_type": "civil"
+  },
+  {
+    "name": "黄兴",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1874,
+    "death_year": 1916,
+    "title": "陆军总长",
+    "achievements": [
+      "创建华兴会",
+      "领导武装起义",
+      "黄花岗起义"
+    ],
+    "biography": "辛亥革命元勋，与孙中山并称\"孙黄\"，中国近代最杰出的军事领袖之一",
+    "evaluation": "辛亥革命元勋，与孙中山并称\"孙黄\"，中国近代最杰出的军事领袖之一",
+    "general_type": "military"
+  },
+  {
+    "name": "宋教仁",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1882,
+    "death_year": 1913,
+    "title": "农林总长",
+    "achievements": [
+      "创建同盟会",
+      "推动宪政",
+      "宋教仁案"
+    ],
+    "biography": "中国宪政之父，为民主宪政献出生命的先驱",
+    "evaluation": "中国宪政之父，为民主宪政献出生命的先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "秋瑾",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1875,
+    "death_year": 1907,
+    "title": "革命家",
+    "achievements": [
+      "创建光复会",
+      "秋瑾就义"
+    ],
+    "biography": "中国近代最杰出的女革命家，\"秋风秋雨愁煞人\"",
+    "evaluation": "中国近代最杰出的女革命家，\"秋风秋雨愁煞人\"",
+    "general_type": "military"
+  },
+  {
+    "name": "徐锡麟",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1873,
+    "death_year": 1907,
+    "title": "革命家",
+    "achievements": [
+      "安庆起义",
+      "刺杀恩铭"
+    ],
+    "biography": "清末著名革命家，安庆起义的领导者",
+    "evaluation": "清末著名革命家，安庆起义的领导者",
+    "general_type": "military"
+  },
+  {
+    "name": "林觉民",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1887,
+    "death_year": 1911,
+    "title": "革命家",
+    "achievements": [
+      "黄花岗起义",
+      "《与妻书》"
+    ],
+    "biography": "黄花岗七十二烈士之一，《与妻书》感动了无数人",
+    "evaluation": "黄花岗七十二烈士之一，《与妻书》感动了无数人",
+    "general_type": "civil"
+  },
+  {
+    "name": "喻培伦",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1911,
+    "title": "革命家",
+    "achievements": [
+      "黄花岗起义",
+      "炸弹大王"
+    ],
+    "biography": "黄花岗七十二烈士之一，\"炸弹大王\"",
+    "evaluation": "黄花岗七十二烈士之一，\"炸弹大王\"",
+    "general_type": "military"
+  },
+  {
+    "name": "陆皓东",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1868,
+    "death_year": 1895,
+    "title": "革命家",
+    "achievements": [
+      "广州起义",
+      "设计青天白日旗"
+    ],
+    "biography": "中国近代第一位为革命献身的烈士",
+    "evaluation": "中国近代第一位为革命献身的烈士",
+    "general_type": "military"
+  },
+  {
+    "name": "郑士良",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1864,
+    "death_year": 1901,
+    "title": "革命家",
+    "achievements": [
+      "惠州起义"
+    ],
+    "biography": "孙中山早期革命战友，惠州起义的领导者",
+    "evaluation": "孙中山早期革命战友，惠州起义的领导者",
+    "general_type": "military"
+  },
+  {
+    "name": "章士钊",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1881,
+    "death_year": 1973,
+    "title": "司法总长",
+    "achievements": [
+      "《苏报》主笔",
+      "法学大家"
+    ],
+    "biography": "近代著名学者和政治家",
+    "evaluation": "近代著名学者和政治家",
+    "general_type": "civil"
+  },
+  {
+    "name": "蔡元培",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1868,
+    "death_year": 1940,
+    "title": "教育总长",
+    "achievements": [
+      "创办中国教育会",
+      "北大改革",
+      "兼容并包"
+    ],
+    "biography": "中国近代最伟大的教育家，\"北大之父\"，\"兼容并包\"教育方针的提出者",
+    "evaluation": "中国近代最伟大的教育家，\"北大之父\"，\"兼容并包\"教育方针的提出者",
+    "general_type": "civil"
+  },
+  {
+    "name": "吴稚晖",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1865,
+    "death_year": 1953,
+    "title": "中央监察委员",
+    "achievements": [
+      "留法勤工俭学",
+      "无政府主义"
+    ],
+    "biography": "民国著名政治家和学者",
+    "evaluation": "民国著名政治家和学者",
+    "general_type": "civil"
+  },
+  {
+    "name": "张静江",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1877,
+    "death_year": 1950,
+    "title": "浙江省主席",
+    "achievements": [
+      "资助孙中山革命",
+      "建设浙江"
+    ],
+    "biography": "民国著名政治家，孙中山的重要资助者",
+    "evaluation": "民国著名政治家，孙中山的重要资助者",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈其美",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1878,
+    "death_year": 1916,
+    "title": "上海都督",
+    "achievements": [
+      "光复上海",
+      "二次革命"
+    ],
+    "biography": "民国著名革命家，蒋介石的结拜兄弟",
+    "evaluation": "民国著名革命家，蒋介石的结拜兄弟",
+    "general_type": "military"
+  },
+  {
+    "name": "陶成章",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1878,
+    "death_year": 1912,
+    "title": "革命家",
+    "achievements": [
+      "创建光复会",
+      "辛亥革命"
+    ],
+    "biography": "清末著名革命家，光复会创建者",
+    "evaluation": "清末著名革命家，光复会创建者",
+    "general_type": "military"
+  },
+  {
+    "name": "黎元洪",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1864,
+    "death_year": 1928,
+    "title": "中华民国大总统",
+    "achievements": [
+      "武昌起义",
+      "两次担任总统"
+    ],
+    "biography": "辛亥革命元勋，两次担任中华民国大总统",
+    "evaluation": "辛亥革命元勋，两次担任中华民国大总统",
+    "general_type": "military"
+  },
+  {
+    "name": "段祺瑞",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1865,
+    "death_year": 1936,
+    "title": "国务总理",
+    "achievements": [
+      "三造共和",
+      "北洋军阀"
+    ],
+    "biography": "北洋军阀皖系首领，\"三造共和\"，晚年拒绝与日本合作",
+    "evaluation": "北洋军阀皖系首领，\"三造共和\"，晚年拒绝与日本合作",
+    "general_type": "military"
+  },
+  {
+    "name": "冯国璋",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1859,
+    "death_year": 1919,
+    "title": "中华民国代总统",
+    "achievements": [
+      "北洋军阀",
+      "直系首领"
+    ],
+    "biography": "北洋军阀直系首领，曾任中华民国代总统",
+    "evaluation": "北洋军阀直系首领，曾任中华民国代总统",
+    "general_type": "military"
+  },
+  {
+    "name": "曹锟",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1862,
+    "death_year": 1938,
+    "title": "中华民国大总统",
+    "achievements": [
+      "北洋军阀",
+      "贿选总统"
+    ],
+    "biography": "北洋军阀直系首领，\"贿选总统\"，晚年拒绝与日本合作",
+    "evaluation": "北洋军阀直系首领，\"贿选总统\"，晚年拒绝与日本合作",
+    "general_type": "military"
+  },
+  {
+    "name": "吴佩孚",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1874,
+    "death_year": 1939,
+    "title": "直鲁豫巡阅使",
+    "achievements": [
+      "直系军阀",
+      "北伐"
+    ],
+    "biography": "北洋军阀直系名将，秀才出身的军阀，晚年拒绝与日本合作",
+    "evaluation": "北洋军阀直系名将，秀才出身的军阀，晚年拒绝与日本合作",
+    "general_type": "military"
+  },
+  {
+    "name": "孙传芳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1885,
+    "death_year": 1935,
+    "title": "五省联军总司令",
+    "achievements": [
+      "东南五省联军",
+      "北伐"
+    ],
+    "biography": "北洋军阀后期重要人物，\"东南王\"",
+    "evaluation": "北洋军阀后期重要人物，\"东南王\"",
+    "general_type": "military"
+  },
+  {
+    "name": "张作霖",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1875,
+    "death_year": 1928,
+    "title": "东北王",
+    "achievements": [
+      "东北军阀",
+      "皇姑屯事件"
+    ],
+    "biography": "东北军阀首领，\"东北王\"，后被日本人炸死",
+    "evaluation": "东北军阀首领，\"东北王\"，后被日本人炸死",
+    "general_type": "military"
+  },
+  {
+    "name": "张学良",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1901,
+    "death_year": 2001,
+    "title": "东北边防司令长官",
+    "achievements": [
+      "东北易帜",
+      "西安事变"
+    ],
+    "biography": "张作霖之子，\"少帅\"，西安事变的发动者，改变了中国历史进程",
+    "evaluation": "张作霖之子，\"少帅\"，西安事变的发动者，改变了中国历史进程",
+    "general_type": "military"
+  },
+  {
+    "name": "阎锡山",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1883,
+    "death_year": 1960,
+    "title": "山西省主席",
+    "achievements": [
+      "山西王",
+      "经营山西"
+    ],
+    "biography": "\"山西王\"，统治山西38年，中国近代最成功的地方军阀",
+    "evaluation": "\"山西王\"，统治山西38年，中国近代最成功的地方军阀",
+    "general_type": "military"
+  },
+  {
+    "name": "冯玉祥",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1882,
+    "death_year": 1948,
+    "title": "国民军总司令",
+    "achievements": [
+      "倒戈将军",
+      "西北军",
+      "察哈尔抗日"
+    ],
+    "biography": "\"基督将军\"，西北军首领，民国最具传奇色彩的将领之一",
+    "evaluation": "\"基督将军\"，西北军首领，民国最具传奇色彩的将领之一",
+    "general_type": "military"
+  },
+  {
+    "name": "李宗仁",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1969,
+    "title": "中华民国代总统",
+    "achievements": [
+      "台儿庄大捷",
+      "桂系领袖"
+    ],
+    "biography": "桂系领袖，台儿庄大捷的指挥者，曾任中华民国代总统",
+    "evaluation": "桂系领袖，台儿庄大捷的指挥者，曾任中华民国代总统",
+    "general_type": "military"
+  },
+  {
+    "name": "白崇禧",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1966,
+    "title": "国防部长",
+    "achievements": [
+      "桂系名将",
+      "小诸葛"
+    ],
+    "biography": "\"小诸葛\"，桂系二号人物，民国最杰出的军事战略家之一",
+    "evaluation": "\"小诸葛\"，桂系二号人物，民国最杰出的军事战略家之一",
+    "general_type": "military"
+  },
+  {
+    "name": "唐生智",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1970,
+    "title": "湖南省主席",
+    "achievements": [
+      "湘军名将",
+      "南京保卫战"
+    ],
+    "biography": "湘军名将，南京保卫战指挥者",
+    "evaluation": "湘军名将，南京保卫战指挥者",
+    "general_type": "military"
+  },
+  {
+    "name": "陈济棠",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1954,
+    "title": "广东省主席",
+    "achievements": [
+      "南天王",
+      "经营广东"
+    ],
+    "biography": "\"南天王\"，统治广东多年",
+    "evaluation": "\"南天王\"，统治广东多年",
+    "general_type": "military"
+  },
+  {
+    "name": "刘湘",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1888,
+    "death_year": 1938,
+    "title": "四川省主席",
+    "achievements": [
+      "四川王",
+      "川军领袖"
+    ],
+    "biography": "\"四川王\"，抗战中率川军出征，\"川军从未负国\"",
+    "evaluation": "\"四川王\"，抗战中率川军出征，\"川军从未负国\"",
+    "general_type": "military"
+  },
+  {
+    "name": "韩复榘",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1938,
+    "title": "山东省主席",
+    "achievements": [
+      "山东军阀"
+    ],
+    "biography": "民国山东军阀，后被蒋介石处决",
+    "evaluation": "民国山东军阀，后被蒋介石处决",
+    "general_type": "military"
+  },
+  {
+    "name": "宋哲元",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1885,
+    "death_year": 1940,
+    "title": "冀察政务委员会委员长",
+    "achievements": [
+      "二十九军",
+      "喜峰口抗战"
+    ],
+    "biography": "二十九军军长，喜峰口抗战英雄",
+    "evaluation": "二十九军军长，喜峰口抗战英雄",
+    "general_type": "military"
+  },
+  {
+    "name": "张自忠",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1940,
+    "title": "集团军总司令",
+    "achievements": [
+      "枣宜会战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中牺牲的最高将领，\"张自忠将军殉国\"",
+    "evaluation": "抗战中牺牲的最高将领，\"张自忠将军殉国\"",
+    "general_type": "military"
+  },
+  {
+    "name": "傅作义",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1974,
+    "title": "华北\"剿总\"司令",
+    "achievements": [
+      "绥远抗战",
+      "北平和平解放"
+    ],
+    "biography": "绥远抗战英雄，促成北平和平解放",
+    "evaluation": "绥远抗战英雄，促成北平和平解放",
+    "general_type": "military"
+  },
+  {
+    "name": "蔡锷",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1882,
+    "death_year": 1916,
+    "title": "云南都督",
+    "achievements": [
+      "护国运动",
+      "护国将军"
+    ],
+    "biography": "护国运动领袖，\"护国将军\"，\"再造共和\"的英雄",
+    "evaluation": "护国运动领袖，\"护国将军\"，\"再造共和\"的英雄",
+    "general_type": "military"
+  },
+  {
+    "name": "程潜",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1882,
+    "death_year": 1968,
+    "title": "湖南省主席",
+    "achievements": [
+      "湖南军阀",
+      "和平起义"
+    ],
+    "biography": "民国湖南军阀，后支持和平解放",
+    "evaluation": "民国湖南军阀，后支持和平解放",
+    "general_type": "military"
+  },
+  {
+    "name": "唐继尧",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1883,
+    "death_year": 1927,
+    "title": "云南都督",
+    "achievements": [
+      "滇军领袖",
+      "护国运动"
+    ],
+    "biography": "护国运动重要人物，滇军领袖",
+    "evaluation": "护国运动重要人物，滇军领袖",
+    "general_type": "military"
+  },
+  {
+    "name": "熊克武",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1885,
+    "death_year": 1970,
+    "title": "四川省主席",
+    "achievements": [
+      "四川军阀",
+      "同盟会元老"
+    ],
+    "biography": "同盟会元老，四川军阀",
+    "evaluation": "同盟会元老，四川军阀",
+    "general_type": "military"
+  },
+  {
+    "name": "刘文辉",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1976,
+    "title": "西康省主席",
+    "achievements": [
+      "西康王",
+      "和平起义"
+    ],
+    "biography": "\"西康王\"，后支持和平解放",
+    "evaluation": "\"西康王\"，后支持和平解放",
+    "general_type": "military"
+  },
+  {
+    "name": "邓锡侯",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1964,
+    "title": "四川省副主席",
+    "achievements": [
+      "四川军阀",
+      "和平起义"
+    ],
+    "biography": "四川军阀，后支持和平解放",
+    "evaluation": "四川军阀，后支持和平解放",
+    "general_type": "military"
+  },
+  {
+    "name": "杨森",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1884,
+    "death_year": 1977,
+    "title": "贵州省主席",
+    "achievements": [
+      "四川军阀"
+    ],
+    "biography": "四川军阀，民国最长寿的军阀之一",
+    "evaluation": "四川军阀，民国最长寿的军阀之一",
+    "general_type": "military"
+  },
+  {
+    "name": "何键",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1887,
+    "death_year": 1956,
+    "title": "湖南省主席",
+    "achievements": [
+      "湖南军阀"
+    ],
+    "biography": "民国湖南军阀",
+    "evaluation": "民国湖南军阀",
+    "general_type": "military"
+  },
+  {
+    "name": "盛世才",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1970,
+    "title": "新疆省主席",
+    "achievements": [
+      "新疆王",
+      "经营新疆"
+    ],
+    "biography": "\"新疆王\"，统治新疆11年",
+    "evaluation": "\"新疆王\"，统治新疆11年",
+    "general_type": "military"
+  },
+  {
+    "name": "马步芳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1975,
+    "title": "青海省主席",
+    "achievements": [
+      "西北马家军",
+      "青海王"
+    ],
+    "biography": "西北马家军首领，\"青海王\"",
+    "evaluation": "西北马家军首领，\"青海王\"",
+    "general_type": "military"
+  },
+  {
+    "name": "马鸿逵",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1970,
+    "title": "宁夏省主席",
+    "achievements": [
+      "西北马家军",
+      "宁夏王"
+    ],
+    "biography": "西北马家军首领，\"宁夏王\"",
+    "evaluation": "西北马家军首领，\"宁夏王\"",
+    "general_type": "military"
+  },
+  {
+    "name": "胡适",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1962,
+    "title": "驻美大使",
+    "achievements": [
+      "新文化运动",
+      "白话文运动",
+      "中国自由主义之父"
+    ],
+    "biography": "中国近代最杰出的学者和思想家之一，新文化运动领袖，\"大胆假设，小心求证\"",
+    "evaluation": "中国近代最杰出的学者和思想家之一，新文化运动领袖，\"大胆假设，小心求证\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "鲁迅",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1881,
+    "death_year": 1936,
+    "title": "教育部佥事",
+    "achievements": [
+      "新文化运动",
+      "《狂人日记》",
+      "《阿Q正传》"
+    ],
+    "biography": "中国近代最伟大的文学家，\"横眉冷对千夫指，俯首甘为孺子牛\"",
+    "evaluation": "中国近代最伟大的文学家，\"横眉冷对千夫指，俯首甘为孺子牛\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈独秀",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1879,
+    "death_year": 1942,
+    "title": "北京大学文科学长",
+    "achievements": [
+      "创建中国共产党",
+      "新文化运动",
+      "《新青年》"
+    ],
+    "biography": "中国共产党创建者，新文化运动领袖，《新青年》创办者",
+    "evaluation": "中国共产党创建者，新文化运动领袖，《新青年》创办者",
+    "general_type": "civil"
+  },
+  {
+    "name": "李大钊",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1927,
+    "title": "北京大学图书馆主任",
+    "achievements": [
+      "传播马克思主义",
+      "创建中国共产党"
+    ],
+    "biography": "中国共产党创建者之一，中国最早的马克思主义传播者",
+    "evaluation": "中国共产党创建者之一，中国最早的马克思主义传播者",
+    "general_type": "civil"
+  },
+  {
+    "name": "宋子文",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1894,
+    "death_year": 1971,
+    "title": "财政部长",
+    "achievements": [
+      "理财能手",
+      "宋氏家族"
+    ],
+    "biography": "民国著名政治家和理财家，宋氏家族代表人物",
+    "evaluation": "民国著名政治家和理财家，宋氏家族代表人物",
+    "general_type": "civil"
+  },
+  {
+    "name": "孔祥熙",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1880,
+    "death_year": 1967,
+    "title": "行政院副院长",
+    "achievements": [
+      "财政部长",
+      "孔氏家族"
+    ],
+    "biography": "民国著名政治家和理财家",
+    "evaluation": "民国著名政治家和理财家",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈立夫",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 2001,
+    "title": "教育部长",
+    "achievements": [
+      "CC系领袖",
+      "中国文化复兴"
+    ],
+    "biography": "民国著名政治家，CC系领袖",
+    "evaluation": "民国著名政治家，CC系领袖",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈果夫",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1951,
+    "title": "江苏省主席",
+    "achievements": [
+      "CC系领袖"
+    ],
+    "biography": "民国著名政治家，CC系领袖",
+    "evaluation": "民国著名政治家，CC系领袖",
+    "general_type": "civil"
+  },
+  {
+    "name": "何应钦",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1987,
+    "title": "国防部长",
+    "achievements": [
+      "黄埔军校教育长",
+      "陆军一级上将"
+    ],
+    "biography": "民国著名将领，黄埔军校教育长",
+    "evaluation": "民国著名将领，黄埔军校教育长",
+    "general_type": "military"
+  },
+  {
+    "name": "陈诚",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1965,
+    "title": "行政院院长",
+    "achievements": [
+      "土木系领袖",
+      "台湾省主席"
+    ],
+    "biography": "民国著名将领，土木系领袖",
+    "evaluation": "民国著名将领，土木系领袖",
+    "general_type": "military"
+  },
+  {
+    "name": "顾维钧",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1888,
+    "death_year": 1985,
+    "title": "外交部长",
+    "achievements": [
+      "巴黎和会",
+      "拒签《凡尔赛和约》"
+    ],
+    "biography": "中国近代最杰出的外交家，\"弱国也有外交\"的践行者",
+    "evaluation": "中国近代最杰出的外交家，\"弱国也有外交\"的践行者",
+    "general_type": "civil"
+  },
+  {
+    "name": "王宠惠",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1881,
+    "death_year": 1958,
+    "title": "外交部长",
+    "achievements": [
+      "法学大家",
+      "海牙国际法院法官"
+    ],
+    "biography": "民国著名法学家和外交家",
+    "evaluation": "民国著名法学家和外交家",
+    "general_type": "civil"
+  },
+  {
+    "name": "施肇基",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1877,
+    "death_year": 1958,
+    "title": "外交部长",
+    "achievements": [
+      "驻美大使"
+    ],
+    "biography": "民国著名外交家",
+    "evaluation": "民国著名外交家",
+    "general_type": "civil"
+  },
+  {
+    "name": "伍廷芳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1842,
+    "death_year": 1922,
+    "title": "外交部长",
+    "achievements": [
+      "外交家",
+      "法学先驱"
+    ],
+    "biography": "民国著名外交家和法学家",
+    "evaluation": "民国著名外交家和法学家",
+    "general_type": "civil"
+  },
+  {
+    "name": "王正廷",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1882,
+    "death_year": 1961,
+    "title": "外交部长",
+    "achievements": [
+      "外交家",
+      "体育先驱"
+    ],
+    "biography": "民国著名外交家，中国奥林匹克运动的先驱",
+    "evaluation": "民国著名外交家，中国奥林匹克运动的先驱",
+    "general_type": "civil"
+  },
+  {
+    "name": "罗文干",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1888,
+    "death_year": 1941,
+    "title": "外交部长",
+    "achievements": [
+      "外交家",
+      "法学家"
+    ],
+    "biography": "民国著名外交家和法学家",
+    "evaluation": "民国著名外交家和法学家",
+    "general_type": "civil"
+  },
+  {
+    "name": "张群",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1991,
+    "title": "行政院院长",
+    "achievements": [
+      "四川省主席",
+      "蒋介石幕僚"
+    ],
+    "biography": "民国著名政治家，蒋介石的亲信幕僚",
+    "evaluation": "民国著名政治家，蒋介石的亲信幕僚",
+    "general_type": "civil"
+  },
+  {
+    "name": "吴鼎昌",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1884,
+    "death_year": 1950,
+    "title": "实业部长",
+    "achievements": [
+      "实业家",
+      "报业巨子"
+    ],
+    "biography": "民国著名实业家和报人",
+    "evaluation": "民国著名实业家和报人",
+    "general_type": "civil"
+  },
+  {
+    "name": "张嘉璈",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1979,
+    "title": "中央银行总裁",
+    "achievements": [
+      "银行家",
+      "金融先驱"
+    ],
+    "biography": "民国著名银行家，中国现代银行的奠基人之一",
+    "evaluation": "民国著名银行家，中国现代银行的奠基人之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈光甫",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1881,
+    "death_year": 1976,
+    "title": "上海商业储蓄银行总经理",
+    "achievements": [
+      "银行家",
+      "中国信用卡之父"
+    ],
+    "biography": "民国著名银行家，上海银行的创建者",
+    "evaluation": "民国著名银行家，上海银行的创建者",
+    "general_type": "civil"
+  },
+  {
+    "name": "钱新之",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1885,
+    "death_year": 1958,
+    "title": "交通银行董事长",
+    "achievements": [
+      "银行家"
+    ],
+    "biography": "民国著名银行家",
+    "evaluation": "民国著名银行家",
+    "general_type": "civil"
+  },
+  {
+    "name": "李铭",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1887,
+    "death_year": 1966,
+    "title": "浙江实业银行总经理",
+    "achievements": [
+      "银行家"
+    ],
+    "biography": "民国著名银行家",
+    "evaluation": "民国著名银行家",
+    "general_type": "civil"
+  },
+  {
+    "name": "贝祖贻",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1964,
+    "title": "中央银行总裁",
+    "achievements": [
+      "银行家"
+    ],
+    "biography": "民国著名银行家",
+    "evaluation": "民国著名银行家",
+    "general_type": "civil"
+  },
+  {
+    "name": "翁文灏",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1971,
+    "title": "行政院院长",
+    "achievements": [
+      "地质学家",
+      "中国地质学之父"
+    ],
+    "biography": "中国地质学的奠基人之一，曾任行政院院长",
+    "evaluation": "中国地质学的奠基人之一，曾任行政院院长",
+    "general_type": "civil"
+  },
+  {
+    "name": "蒋廷黻",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1965,
+    "title": "驻苏大使",
+    "achievements": [
+      "历史学家",
+      "外交家"
+    ],
+    "biography": "民国著名历史学家和外交家",
+    "evaluation": "民国著名历史学家和外交家",
+    "general_type": "civil"
+  },
+  {
+    "name": "傅斯年",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1950,
+    "title": "北京大学校长",
+    "achievements": [
+      "历史学家",
+      "五四运动领袖"
+    ],
+    "biography": "民国著名历史学家，五四运动学生领袖",
+    "evaluation": "民国著名历史学家，五四运动学生领袖",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈寅恪",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1969,
+    "title": "清华大学教授",
+    "achievements": [
+      "史学大师",
+      "语言天才"
+    ],
+    "biography": "中国近代最杰出的历史学家之一，\"教授的教授\"",
+    "evaluation": "中国近代最杰出的历史学家之一，\"教授的教授\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "钱穆",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1990,
+    "title": "北京大学教授",
+    "achievements": [
+      "国学大师",
+      "《国史大纲》"
+    ],
+    "biography": "中国近代最杰出的历史学家之一，\"一代儒宗\"",
+    "evaluation": "中国近代最杰出的历史学家之一，\"一代儒宗\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "梁漱溟",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1988,
+    "title": "北京大学教授",
+    "achievements": [
+      "新儒家",
+      "乡村建设"
+    ],
+    "biography": "中国近代最重要的思想家之一，\"最后的儒家\"",
+    "evaluation": "中国近代最重要的思想家之一，\"最后的儒家\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "熊十力",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1885,
+    "death_year": 1968,
+    "title": "北京大学教授",
+    "achievements": [
+      "新儒家",
+      "《新唯识论》"
+    ],
+    "biography": "中国近代最重要的哲学家之一，新儒家的开创者",
+    "evaluation": "中国近代最重要的哲学家之一，新儒家的开创者",
+    "general_type": "civil"
+  },
+  {
+    "name": "马一浮",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1883,
+    "death_year": 1967,
+    "title": "浙江大学教授",
+    "achievements": [
+      "国学大师",
+      "新儒家"
+    ],
+    "biography": "中国近代最杰出的学者之一，\"千年国粹，一代儒宗\"",
+    "evaluation": "中国近代最杰出的学者之一，\"千年国粹，一代儒宗\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "赵元任",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1982,
+    "title": "清华大学教授",
+    "achievements": [
+      "语言学家",
+      "中国语言学之父"
+    ],
+    "biography": "中国近代最杰出的语言学家，\"中国语言学之父\"",
+    "evaluation": "中国近代最杰出的语言学家，\"中国语言学之父\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "李济",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1979,
+    "title": "清华大学教授",
+    "achievements": [
+      "考古学家",
+      "中国考古学之父"
+    ],
+    "biography": "\"中国考古学之父\"，殷墟发掘的主持者",
+    "evaluation": "\"中国考古学之父\"，殷墟发掘的主持者",
+    "general_type": "civil"
+  },
+  {
+    "name": "丁文江",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1887,
+    "death_year": 1936,
+    "title": "中央研究院总干事",
+    "achievements": [
+      "地质学家",
+      "科学先驱"
+    ],
+    "biography": "中国近代地质学的奠基人之一",
+    "evaluation": "中国近代地质学的奠基人之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "李四光",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1971,
+    "title": "地质部部长",
+    "achievements": [
+      "地质学家",
+      "中国地质力学之父"
+    ],
+    "biography": "中国地质力学的创立者，为中国石油勘探做出巨大贡献",
+    "evaluation": "中国地质力学的创立者，为中国石油勘探做出巨大贡献",
+    "general_type": "civil"
+  },
+  {
+    "name": "竺可桢",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1974,
+    "title": "浙江大学校长",
+    "achievements": [
+      "气象学家",
+      "中国气象学之父"
+    ],
+    "biography": "中国近代气象学和地理学的奠基人",
+    "evaluation": "中国近代气象学和地理学的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "茅以升",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1989,
+    "title": "交通大学校长",
+    "achievements": [
+      "桥梁专家",
+      "钱塘江大桥"
+    ],
+    "biography": "中国近代最杰出的桥梁专家，钱塘江大桥的设计者",
+    "evaluation": "中国近代最杰出的桥梁专家，钱塘江大桥的设计者",
+    "general_type": "civil"
+  },
+  {
+    "name": "梁思成",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1901,
+    "death_year": 1972,
+    "title": "清华大学教授",
+    "achievements": [
+      "建筑学家",
+      "中国建筑史"
+    ],
+    "biography": "中国近代最杰出的建筑学家，中国建筑史学科的创立者",
+    "evaluation": "中国近代最杰出的建筑学家，中国建筑史学科的创立者",
+    "general_type": "civil"
+  },
+  {
+    "name": "林徽因",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1955,
+    "title": "清华大学教授",
+    "achievements": [
+      "建筑学家",
+      "诗人"
+    ],
+    "biography": "中国近代最杰出的女建筑学家和诗人",
+    "evaluation": "中国近代最杰出的女建筑学家和诗人",
+    "general_type": "civil"
+  },
+  {
+    "name": "陶行知",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1946,
+    "title": "教育家",
+    "achievements": [
+      "生活教育",
+      "晓庄师范"
+    ],
+    "biography": "中国近代最伟大的教育家之一，\"生活即教育\"",
+    "evaluation": "中国近代最伟大的教育家之一，\"生活即教育\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "黄炎培",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1878,
+    "death_year": 1965,
+    "title": "政务院副总理",
+    "achievements": [
+      "职业教育先驱",
+      "民主建国会"
+    ],
+    "biography": "中国近代职业教育的奠基人",
+    "evaluation": "中国近代职业教育的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "张伯苓",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1876,
+    "death_year": 1951,
+    "title": "南开大学校长",
+    "achievements": [
+      "教育家",
+      "南开系列学校"
+    ],
+    "biography": "中国近代最杰出的教育家之一，南开系列学校的创建者",
+    "evaluation": "中国近代最杰出的教育家之一，南开系列学校的创建者",
+    "general_type": "civil"
+  },
+  {
+    "name": "梅贻琦",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1889,
+    "death_year": 1962,
+    "title": "清华大学校长",
+    "achievements": [
+      "教育家",
+      "清华大学"
+    ],
+    "biography": "清华大学任期最长的校长，\"所谓大学者，非谓有大楼之谓也，有大师之谓也\"",
+    "evaluation": "清华大学任期最长的校长，\"所谓大学者，非谓有大楼之谓也，有大师之谓也\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "蒋梦麟",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1964,
+    "title": "北京大学校长",
+    "achievements": [
+      "教育家",
+      "北京大学"
+    ],
+    "biography": "民国著名教育家，北京大学校长",
+    "evaluation": "民国著名教育家，北京大学校长",
+    "general_type": "civil"
+  },
+  {
+    "name": "罗家伦",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1969,
+    "title": "清华大学校长",
+    "achievements": [
+      "教育家",
+      "五四运动"
+    ],
+    "biography": "五四运动学生领袖，后任清华大学校长",
+    "evaluation": "五四运动学生领袖，后任清华大学校长",
+    "general_type": "civil"
+  },
+  {
+    "name": "晏阳初",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1990,
+    "title": "教育家",
+    "achievements": [
+      "平民教育",
+      "乡村建设"
+    ],
+    "biography": "世界平民教育之父，为全球平民教育做出巨大贡献",
+    "evaluation": "世界平民教育之父，为全球平民教育做出巨大贡献",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈鹤琴",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1982,
+    "title": "教育家",
+    "achievements": [
+      "幼儿教育",
+      "中国幼教之父"
+    ],
+    "biography": "\"中国幼教之父\"，中国现代幼儿教育的奠基人",
+    "evaluation": "\"中国幼教之父\"，中国现代幼儿教育的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "毛泽东",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1976,
+    "title": "中华人民共和国主席",
+    "achievements": [
+      "创建井冈山根据地",
+      "领导长征",
+      "创建中华人民共和国"
+    ],
+    "biography": "中华人民共和国缔造者，中国最伟大的政治家和军事战略家之一",
+    "evaluation": "中华人民共和国缔造者，中国最伟大的政治家和军事战略家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "周恩来",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1976,
+    "title": "国务院总理",
+    "achievements": [
+      "南昌起义",
+      "和平共处五项原则",
+      "中美建交"
+    ],
+    "biography": "中华人民共和国开国总理，中国最杰出的外交家和政治家之一",
+    "evaluation": "中华人民共和国开国总理，中国最杰出的外交家和政治家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "刘少奇",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1969,
+    "title": "国家主席",
+    "achievements": [
+      "工人运动领袖",
+      "白区工作"
+    ],
+    "biography": "中华人民共和国开国元勋，中国工人运动的杰出领袖",
+    "evaluation": "中华人民共和国开国元勋，中国工人运动的杰出领袖",
+    "general_type": "civil"
+  },
+  {
+    "name": "朱德",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1976,
+    "title": "全国人大常委会委员长",
+    "achievements": [
+      "南昌起义",
+      "红军之父",
+      "开国元帅"
+    ],
+    "biography": "中华人民共和国开国元帅，\"红军之父\"，中国人民解放军的创建者之一",
+    "evaluation": "中华人民共和国开国元帅，\"红军之父\"，中国人民解放军的创建者之一",
+    "general_type": "military"
+  },
+  {
+    "name": "任弼时",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1950,
+    "title": "中央书记处书记",
+    "achievements": [
+      "长征",
+      "党的组织工作"
+    ],
+    "biography": "中国共产党重要领导人，\"党的骆驼\"",
+    "evaluation": "中国共产党重要领导人，\"党的骆驼\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "邓小平",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1997,
+    "title": "中央军委主席",
+    "achievements": [
+      "百色起义",
+      "改革开放",
+      "一国两制"
+    ],
+    "biography": "中国改革开放总设计师，改变了中国历史进程的伟大政治家",
+    "evaluation": "中国改革开放总设计师，改变了中国历史进程的伟大政治家",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈云",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1995,
+    "title": "中央纪委第一书记",
+    "achievements": [
+      "经济工作",
+      "遵义会议"
+    ],
+    "biography": "中国共产党重要领导人，中国经济工作的杰出领导者",
+    "evaluation": "中国共产党重要领导人，中国经济工作的杰出领导者",
+    "general_type": "civil"
+  },
+  {
+    "name": "彭德怀",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1974,
+    "title": "国防部长",
+    "achievements": [
+      "平江起义",
+      "百团大战",
+      "抗美援朝"
+    ],
+    "biography": "中华人民共和国开国元帅，百团大战和抗美援朝的指挥者",
+    "evaluation": "中华人民共和国开国元帅，百团大战和抗美援朝的指挥者",
+    "general_type": "military"
+  },
+  {
+    "name": "林彪",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1971,
+    "title": "国防部长",
+    "achievements": [
+      "平型关大捷",
+      "辽沈战役",
+      "四野统帅"
+    ],
+    "biography": "中华人民共和国开国元帅，最年轻的元帅，军事天才",
+    "evaluation": "中华人民共和国开国元帅，最年轻的元帅，军事天才",
+    "general_type": "military"
+  },
+  {
+    "name": "刘伯承",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1986,
+    "title": "军事学院院长",
+    "achievements": [
+      "南昌起义",
+      "挺进大别山",
+      "淮海战役"
+    ],
+    "biography": "中华人民共和国开国元帅，\"军神\"，中国最杰出的军事理论家之一",
+    "evaluation": "中华人民共和国开国元帅，\"军神\"，中国最杰出的军事理论家之一",
+    "general_type": "military"
+  },
+  {
+    "name": "贺龙",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1969,
+    "title": "国务院副总理",
+    "achievements": [
+      "南昌起义",
+      "两把菜刀闹革命"
+    ],
+    "biography": "中华人民共和国开国元帅，南昌起义总指挥",
+    "evaluation": "中华人民共和国开国元帅，南昌起义总指挥",
+    "general_type": "military"
+  },
+  {
+    "name": "陈毅",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1901,
+    "death_year": 1972,
+    "title": "外交部长",
+    "achievements": [
+      "新四军军长",
+      "上海市长"
+    ],
+    "biography": "中华人民共和国开国元帅，诗人元帅",
+    "evaluation": "中华人民共和国开国元帅，诗人元帅",
+    "general_type": "military"
+  },
+  {
+    "name": "罗荣桓",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1963,
+    "title": "全国人大常委会副委员长",
+    "achievements": [
+      "秋收起义",
+      "山东根据地"
+    ],
+    "biography": "中华人民共和国开国元帅，政工元帅",
+    "evaluation": "中华人民共和国开国元帅，政工元帅",
+    "general_type": "military"
+  },
+  {
+    "name": "徐向前",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1901,
+    "death_year": 1990,
+    "title": "国务院副总理",
+    "achievements": [
+      "红四方面军总指挥",
+      "太原战役"
+    ],
+    "biography": "中华人民共和国开国元帅，红四方面军总指挥",
+    "evaluation": "中华人民共和国开国元帅，红四方面军总指挥",
+    "general_type": "military"
+  },
+  {
+    "name": "聂荣臻",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1992,
+    "title": "国务院副总理",
+    "achievements": [
+      "平型关大捷",
+      "两弹一星"
+    ],
+    "biography": "中华人民共和国开国元帅，\"两弹一星\"事业的领导者",
+    "evaluation": "中华人民共和国开国元帅，\"两弹一星\"事业的领导者",
+    "general_type": "military"
+  },
+  {
+    "name": "叶剑英",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1986,
+    "title": "全国人大常委会委员长",
+    "achievements": [
+      "南昌起义",
+      "粉碎四人帮"
+    ],
+    "biography": "中华人民共和国开国元帅，\"诸葛一生唯谨慎，吕端大事不糊涂\"",
+    "evaluation": "中华人民共和国开国元帅，\"诸葛一生唯谨慎，吕端大事不糊涂\"",
+    "general_type": "military"
+  },
+  {
+    "name": "叶挺",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1946,
+    "title": "新四军军长",
+    "achievements": [
+      "南昌起义",
+      "新四军军长"
+    ],
+    "biography": "中国人民解放军创始人之一，\"叶挺将军\"",
+    "evaluation": "中国人民解放军创始人之一，\"叶挺将军\"",
+    "general_type": "military"
+  },
+  {
+    "name": "粟裕",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1984,
+    "title": "总参谋长",
+    "achievements": [
+      "淮海战役",
+      "战神"
+    ],
+    "biography": "中国人民解放军最杰出的将领之一，\"战神\"",
+    "evaluation": "中国人民解放军最杰出的将领之一，\"战神\"",
+    "general_type": "military"
+  },
+  {
+    "name": "徐海东",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1970,
+    "title": "国防委员会委员",
+    "achievements": [
+      "红二十五军",
+      "对中国革命有大功的人"
+    ],
+    "biography": "中华人民共和国开国大将，毛泽东称他\"对中国革命有大功的人\"",
+    "evaluation": "中华人民共和国开国大将，毛泽东称他\"对中国革命有大功的人\"",
+    "general_type": "military"
+  },
+  {
+    "name": "黄克诚",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1986,
+    "title": "中央纪委常务书记",
+    "achievements": [
+      "新四军",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将",
+    "evaluation": "中华人民共和国开国大将",
+    "general_type": "military"
+  },
+  {
+    "name": "陈赓",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1961,
+    "title": "国防部副部长",
+    "achievements": [
+      "黄埔三杰",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将，\"黄埔三杰\"之一",
+    "evaluation": "中华人民共和国开国大将，\"黄埔三杰\"之一",
+    "general_type": "military"
+  },
+  {
+    "name": "谭政",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1906,
+    "death_year": 1988,
+    "title": "国防部副部长",
+    "achievements": [
+      "政工大将"
+    ],
+    "biography": "中华人民共和国开国大将，政工大将",
+    "evaluation": "中华人民共和国开国大将，政工大将",
+    "general_type": "military"
+  },
+  {
+    "name": "萧劲光",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1989,
+    "title": "海军司令员",
+    "achievements": [
+      "海军创建者"
+    ],
+    "biography": "中华人民共和国开国大将，中国人民解放军海军创建者",
+    "evaluation": "中华人民共和国开国大将，中国人民解放军海军创建者",
+    "general_type": "military"
+  },
+  {
+    "name": "张云逸",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1974,
+    "title": "国防委员会委员",
+    "achievements": [
+      "百色起义",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将",
+    "evaluation": "中华人民共和国开国大将",
+    "general_type": "military"
+  },
+  {
+    "name": "罗瑞卿",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1906,
+    "death_year": 1978,
+    "title": "国防部副部长",
+    "achievements": [
+      "公安军",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将",
+    "evaluation": "中华人民共和国开国大将",
+    "general_type": "military"
+  },
+  {
+    "name": "王树声",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1974,
+    "title": "国防部副部长",
+    "achievements": [
+      "红四方面军",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将",
+    "evaluation": "中华人民共和国开国大将",
+    "general_type": "military"
+  },
+  {
+    "name": "许光达",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1908,
+    "death_year": 1969,
+    "title": "装甲兵司令员",
+    "achievements": [
+      "装甲兵创建者",
+      "开国大将"
+    ],
+    "biography": "中华人民共和国开国大将，中国人民解放军装甲兵创建者",
+    "evaluation": "中华人民共和国开国大将，中国人民解放军装甲兵创建者",
+    "general_type": "military"
+  },
+  {
+    "name": "邓子恢",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1972,
+    "title": "国务院副总理",
+    "achievements": [
+      "农村工作"
+    ],
+    "biography": "中国共产党重要领导人，农村工作的杰出领导者",
+    "evaluation": "中国共产党重要领导人，农村工作的杰出领导者",
+    "general_type": "civil"
+  },
+  {
+    "name": "董必武",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1975,
+    "title": "国家副主席",
+    "achievements": [
+      "创建中国共产党",
+      "法学先驱"
+    ],
+    "biography": "中国共产党创建者之一，中华人民共和国开国元勋",
+    "evaluation": "中国共产党创建者之一，中华人民共和国开国元勋",
+    "general_type": "civil"
+  },
+  {
+    "name": "林伯渠",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1960,
+    "title": "全国人大常委会副委员长",
+    "achievements": [
+      "长征",
+      "延安五老"
+    ],
+    "biography": "中国共产党重要领导人，\"延安五老\"之一",
+    "evaluation": "中国共产党重要领导人，\"延安五老\"之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "谢觉哉",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1884,
+    "death_year": 1971,
+    "title": "最高人民法院院长",
+    "achievements": [
+      "法学先驱",
+      "延安五老"
+    ],
+    "biography": "中国共产党重要领导人，\"延安五老\"之一",
+    "evaluation": "中国共产党重要领导人，\"延安五老\"之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "吴玉章",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1878,
+    "death_year": 1966,
+    "title": "中国人民大学校长",
+    "achievements": [
+      "教育家",
+      "延安五老"
+    ],
+    "biography": "中国共产党重要领导人，\"延安五老\"之一",
+    "evaluation": "中国共产党重要领导人，\"延安五老\"之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "徐特立",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1877,
+    "death_year": 1968,
+    "title": "教育家",
+    "achievements": [
+      "教育家",
+      "延安五老"
+    ],
+    "biography": "中国共产党重要领导人，\"延安五老\"之一，毛泽东的老师",
+    "evaluation": "中国共产党重要领导人，\"延安五老\"之一，毛泽东的老师",
+    "general_type": "civil"
+  },
+  {
+    "name": "张闻天",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1976,
+    "title": "驻苏大使",
+    "achievements": [
+      "遵义会议",
+      "总书记"
+    ],
+    "biography": "中国共产党重要领导人，遵义会议后担任总书记",
+    "evaluation": "中国共产党重要领导人，遵义会议后担任总书记",
+    "general_type": "civil"
+  },
+  {
+    "name": "王稼祥",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1906,
+    "death_year": 1974,
+    "title": "中央书记处书记",
+    "achievements": [
+      "遵义会议",
+      "外交家"
+    ],
+    "biography": "中国共产党重要领导人，遵义会议的关键人物",
+    "evaluation": "中国共产党重要领导人，遵义会议的关键人物",
+    "general_type": "civil"
+  },
+  {
+    "name": "博古",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1946,
+    "title": "中央总书记",
+    "achievements": [
+      "遵义会议"
+    ],
+    "biography": "中国共产党早期领导人",
+    "evaluation": "中国共产党早期领导人",
+    "general_type": "civil"
+  },
+  {
+    "name": "李立三",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1967,
+    "title": "全国总工会副主席",
+    "achievements": [
+      "安源路矿工人大罢工",
+      "立三路线"
+    ],
+    "biography": "中国共产党早期重要领导人",
+    "evaluation": "中国共产党早期重要领导人",
+    "general_type": "civil"
+  },
+  {
+    "name": "瞿秋白",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1935,
+    "title": "中央总书记",
+    "achievements": [
+      "新文化运动",
+      "左翼文化"
+    ],
+    "biography": "中国共产党早期领导人，杰出的文学家和翻译家",
+    "evaluation": "中国共产党早期领导人，杰出的文学家和翻译家",
+    "general_type": "civil"
+  },
+  {
+    "name": "向忠发",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1880,
+    "death_year": 1931,
+    "title": "中央总书记",
+    "achievements": [
+      "工人运动"
+    ],
+    "biography": "中国共产党早期领导人",
+    "evaluation": "中国共产党早期领导人",
+    "general_type": "civil"
+  },
+  {
+    "name": "王明",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1974,
+    "title": "中央委员",
+    "achievements": [
+      "国际派"
+    ],
+    "biography": "中国共产党早期领导人",
+    "evaluation": "中国共产党早期领导人",
+    "general_type": "civil"
+  },
+  {
+    "name": "张国焘",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1979,
+    "title": "中央委员",
+    "achievements": [
+      "长征",
+      "另立中央"
+    ],
+    "biography": "中国共产党早期领导人，后叛党",
+    "evaluation": "中国共产党早期领导人，后叛党",
+    "general_type": "civil"
+  },
+  {
+    "name": "项英",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1941,
+    "title": "新四军副军长",
+    "achievements": [
+      "新四军",
+      "皖南事变"
+    ],
+    "biography": "中国共产党重要领导人，皖南事变中牺牲",
+    "evaluation": "中国共产党重要领导人，皖南事变中牺牲",
+    "general_type": "military"
+  },
+  {
+    "name": "方志敏",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1935,
+    "title": "红十军团军政委员会主席",
+    "achievements": [
+      "《可爱的中国》",
+      "红军将领"
+    ],
+    "biography": "中国共产党优秀领导人，\"清贫\"精神的代表",
+    "evaluation": "中国共产党优秀领导人，\"清贫\"精神的代表",
+    "general_type": "military"
+  },
+  {
+    "name": "刘志丹",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1936,
+    "title": "红二十八军军长",
+    "achievements": [
+      "陕北红军",
+      "创建陕北根据地"
+    ],
+    "biography": "陕北红军和革命根据地的创建者",
+    "evaluation": "陕北红军和革命根据地的创建者",
+    "general_type": "military"
+  },
+  {
+    "name": "谢子长",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1935,
+    "title": "陕北红军领导人",
+    "achievements": [
+      "陕北红军"
+    ],
+    "biography": "陕北红军和革命根据地的创建者之一",
+    "evaluation": "陕北红军和革命根据地的创建者之一",
+    "general_type": "military"
+  },
+  {
+    "name": "杨靖宇",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1940,
+    "title": "东北抗日联军总司令",
+    "achievements": [
+      "东北抗联",
+      "壮烈殉国"
+    ],
+    "biography": "东北抗日联军的创建者和领导人，壮烈殉国的民族英雄",
+    "evaluation": "东北抗日联军的创建者和领导人，壮烈殉国的民族英雄",
+    "general_type": "military"
+  },
+  {
+    "name": "赵尚志",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1908,
+    "death_year": 1942,
+    "title": "东北抗日联军副总司令",
+    "achievements": [
+      "东北抗联",
+      "壮烈殉国"
+    ],
+    "biography": "东北抗日联军的创建者和领导人",
+    "evaluation": "东北抗日联军的创建者和领导人",
+    "general_type": "military"
+  },
+  {
+    "name": "赵一曼",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1936,
+    "title": "东北抗联政委",
+    "achievements": [
+      "东北抗联",
+      "壮烈就义"
+    ],
+    "biography": "东北抗日联军女英雄",
+    "evaluation": "东北抗日联军女英雄",
+    "general_type": "military"
+  },
+  {
+    "name": "左权",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1942,
+    "title": "八路军副参谋长",
+    "achievements": [
+      "百团大战",
+      "壮烈殉国"
+    ],
+    "biography": "八路军副参谋长，抗战中牺牲的八路军最高将领",
+    "evaluation": "八路军副参谋长，抗战中牺牲的八路军最高将领",
+    "general_type": "military"
+  },
+  {
+    "name": "彭雪枫",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1944,
+    "title": "新四军第四师师长",
+    "achievements": [
+      "新四军",
+      "壮烈殉国"
+    ],
+    "biography": "新四军名将，抗战中牺牲",
+    "evaluation": "新四军名将，抗战中牺牲",
+    "general_type": "military"
+  },
+  {
+    "name": "罗炳辉",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1946,
+    "title": "新四军副军长",
+    "achievements": [
+      "新四军"
+    ],
+    "biography": "新四军名将",
+    "evaluation": "新四军名将",
+    "general_type": "military"
+  },
+  {
+    "name": "蒋介石",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1887,
+    "death_year": 1975,
+    "title": "国民政府主席",
+    "achievements": [
+      "北伐",
+      "抗日战争",
+      "台湾"
+    ],
+    "biography": "中国国民党总裁，中华民国领导人",
+    "evaluation": "中国国民党总裁，中华民国领导人",
+    "general_type": "military"
+  },
+  {
+    "name": "蒋经国",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1910,
+    "death_year": 1988,
+    "title": "中华民国总统",
+    "achievements": [
+      "台湾经济奇迹",
+      "解除戒严"
+    ],
+    "biography": "蒋介石之子，台湾经济奇迹的推动者",
+    "evaluation": "蒋介石之子，台湾经济奇迹的推动者",
+    "general_type": "civil"
+  },
+  {
+    "name": "汪精卫",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1883,
+    "death_year": 1944,
+    "title": "行政院院长",
+    "achievements": [
+      "刺杀摄政王",
+      "投日叛国"
+    ],
+    "biography": "早年是革命英雄，后沦为汉奸，是中国近代最具争议的人物之一",
+    "evaluation": "早年是革命英雄，后沦为汉奸，是中国近代最具争议的人物之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "胡汉民",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1879,
+    "death_year": 1936,
+    "title": "立法院院长",
+    "achievements": [
+      "同盟会元老",
+      "南京国民政府"
+    ],
+    "biography": "民国著名政治家，同盟会元老",
+    "evaluation": "民国著名政治家，同盟会元老",
+    "general_type": "civil"
+  },
+  {
+    "name": "廖仲恺",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1877,
+    "death_year": 1925,
+    "title": "财政部长",
+    "achievements": [
+      "同盟会元老",
+      "国共合作"
+    ],
+    "biography": "民国著名革命家，国共合作的重要推动者",
+    "evaluation": "民国著名革命家，国共合作的重要推动者",
+    "general_type": "civil"
+  },
+  {
+    "name": "邓演达",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1931,
+    "title": "国民革命军总政治部主任",
+    "achievements": [
+      "黄埔军校",
+      "农工民主党"
+    ],
+    "biography": "民国著名革命家，农工民主党创建者",
+    "evaluation": "民国著名革命家，农工民主党创建者",
+    "general_type": "civil"
+  },
+  {
+    "name": "张治中",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1969,
+    "title": "国防委员会副主席",
+    "achievements": [
+      "和平将军",
+      "国共和谈"
+    ],
+    "biography": "\"和平将军\"，为国共和谈做出重要贡献",
+    "evaluation": "\"和平将军\"，为国共和谈做出重要贡献",
+    "general_type": "military"
+  },
+  {
+    "name": "卫立煌",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1960,
+    "title": "东北\"剿总\"司令",
+    "achievements": [
+      "远征军",
+      "抗日名将"
+    ],
+    "biography": "国民党著名将领，远征军司令",
+    "evaluation": "国民党著名将领，远征军司令",
+    "general_type": "military"
+  },
+  {
+    "name": "杜聿明",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1981,
+    "title": "东北保安司令长官",
+    "achievements": [
+      "远征军",
+      "淮海战役"
+    ],
+    "biography": "国民党著名将领，远征军名将",
+    "evaluation": "国民党著名将领，远征军名将",
+    "general_type": "military"
+  },
+  {
+    "name": "陈明仁",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1974,
+    "title": "湖南省临时政府主席",
+    "achievements": [
+      "四平战役",
+      "长沙起义"
+    ],
+    "biography": "国民党著名将领，后起义",
+    "evaluation": "国民党著名将领，后起义",
+    "general_type": "military"
+  },
+  {
+    "name": "郑洞国",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1991,
+    "title": "东北保安副司令长官",
+    "achievements": [
+      "远征军",
+      "长春起义"
+    ],
+    "biography": "国民党著名将领，远征军名将",
+    "evaluation": "国民党著名将领，远征军名将",
+    "general_type": "military"
+  },
+  {
+    "name": "戴安澜",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1942,
+    "title": "远征军第二〇〇师师长",
+    "achievements": [
+      "远征军",
+      "壮烈殉国"
+    ],
+    "biography": "远征军名将，壮烈殉国的抗日英雄",
+    "evaluation": "远征军名将，壮烈殉国的抗日英雄",
+    "general_type": "military"
+  },
+  {
+    "name": "孙立人",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1990,
+    "title": "新一军军长",
+    "achievements": [
+      "远征军",
+      "仁安羌大捷"
+    ],
+    "biography": "远征军名将，\"东方隆美尔\"",
+    "evaluation": "远征军名将，\"东方隆美尔\"",
+    "general_type": "military"
+  },
+  {
+    "name": "薛岳",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1998,
+    "title": "湖南省主席",
+    "achievements": [
+      "长沙会战",
+      "天炉战法"
+    ],
+    "biography": "国民党著名将领，长沙会战的指挥者",
+    "evaluation": "国民党著名将领，长沙会战的指挥者",
+    "general_type": "military"
+  },
+  {
+    "name": "王耀武",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1968,
+    "title": "山东省主席",
+    "achievements": [
+      "抗日名将"
+    ],
+    "biography": "国民党著名抗日将领",
+    "evaluation": "国民党著名抗日将领",
+    "general_type": "military"
+  },
+  {
+    "name": "关麟征",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1980,
+    "title": "黄埔军校校长",
+    "achievements": [
+      "抗日名将"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "张灵甫",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1947,
+    "title": "整编第七十四师师长",
+    "achievements": [
+      "抗日名将",
+      "孟良崮战役"
+    ],
+    "biography": "国民党著名将领，抗战中负伤致残",
+    "evaluation": "国民党著名将领，抗战中负伤致残",
+    "general_type": "military"
+  },
+  {
+    "name": "胡琏",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1977,
+    "title": "金门防卫司令官",
+    "achievements": [
+      "抗日名将",
+      "金门战役"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "邱清泉",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1949,
+    "title": "第二兵团司令",
+    "achievements": [
+      "抗日名将",
+      "淮海战役"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "黄百韬",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1948,
+    "title": "第七兵团司令",
+    "achievements": [
+      "抗日名将",
+      "淮海战役"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "宋希濂",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1993,
+    "title": "川湘鄂边区绥靖公署主任",
+    "achievements": [
+      "抗日名将",
+      "远征军"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "刘戡",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1906,
+    "death_year": 1948,
+    "title": "整编第二十九军军长",
+    "achievements": [
+      "抗日名将"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "范汉杰",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1976,
+    "title": "东北\"剿总\"副司令",
+    "achievements": [
+      "抗日名将"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "黄维",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1989,
+    "title": "第十二兵团司令",
+    "achievements": [
+      "抗日名将",
+      "淮海战役"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "李弥",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1973,
+    "title": "第十三兵团司令",
+    "achievements": [
+      "抗日名将",
+      "金三角"
+    ],
+    "biography": "国民党著名将领",
+    "evaluation": "国民党著名将领",
+    "general_type": "military"
+  },
+  {
+    "name": "余程万",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1955,
+    "title": "常德守备司令",
+    "achievements": [
+      "常德会战",
+      "虎贲"
+    ],
+    "biography": "国民党著名将领，\"虎贲\"部队指挥官",
+    "evaluation": "国民党著名将领，\"虎贲\"部队指挥官",
+    "general_type": "military"
+  },
+  {
+    "name": "方先觉",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1983,
+    "title": "第十军军长",
+    "achievements": [
+      "衡阳保卫战"
+    ],
+    "biography": "国民党著名将领，衡阳保卫战指挥者",
+    "evaluation": "国民党著名将领，衡阳保卫战指挥者",
+    "general_type": "military"
+  },
+  {
+    "name": "王铭章",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1938,
+    "title": "第一二二师师长",
+    "achievements": [
+      "台儿庄战役",
+      "壮烈殉国"
+    ],
+    "biography": "国民党著名将领，台儿庄战役中壮烈殉国",
+    "evaluation": "国民党著名将领，台儿庄战役中壮烈殉国",
+    "general_type": "military"
+  },
+  {
+    "name": "佟麟阁",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1937,
+    "title": "第二十九军副军长",
+    "achievements": [
+      "卢沟桥抗战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中牺牲的第一位高级将领",
+    "evaluation": "抗战中牺牲的第一位高级将领",
+    "general_type": "military"
+  },
+  {
+    "name": "赵登禹",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1937,
+    "title": "第一三二师师长",
+    "achievements": [
+      "卢沟桥抗战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中牺牲的高级将领",
+    "evaluation": "抗战中牺牲的高级将领",
+    "general_type": "military"
+  },
+  {
+    "name": "郝梦龄",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1937,
+    "title": "第九军军长",
+    "achievements": [
+      "忻口会战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中牺牲的第一位军长",
+    "evaluation": "抗战中牺牲的第一位军长",
+    "general_type": "military"
+  },
+  {
+    "name": "饶国华",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1894,
+    "death_year": 1937,
+    "title": "第一四五师师长",
+    "achievements": [
+      "广德保卫战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中壮烈殉国的将领",
+    "evaluation": "抗战中壮烈殉国的将领",
+    "general_type": "military"
+  },
+  {
+    "name": "李家钰",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1944,
+    "title": "第三十六集团军总司令",
+    "achievements": [
+      "豫湘桂会战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中壮烈殉国的集团军总司令",
+    "evaluation": "抗战中壮烈殉国的集团军总司令",
+    "general_type": "military"
+  },
+  {
+    "name": "陈安宝",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1939,
+    "title": "第二十九军军长",
+    "achievements": [
+      "南昌会战",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中壮烈殉国的将领",
+    "evaluation": "抗战中壮烈殉国的将领",
+    "general_type": "military"
+  },
+  {
+    "name": "武士敏",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1941,
+    "title": "第九十八军军长",
+    "achievements": [
+      "中条山战役",
+      "壮烈殉国"
+    ],
+    "biography": "抗战中壮烈殉国的将领",
+    "evaluation": "抗战中壮烈殉国的将领",
+    "general_type": "military"
+  },
+  {
+    "name": "齐白石",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1864,
+    "death_year": 1957,
+    "title": "中央美术学院教授",
+    "achievements": [
+      "国画大师",
+      "虾"
+    ],
+    "biography": "中国近代最杰出的画家之一，以画虾闻名于世",
+    "evaluation": "中国近代最杰出的画家之一，以画虾闻名于世",
+    "general_type": "civil"
+  },
+  {
+    "name": "张大千",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1983,
+    "title": "画家",
+    "achievements": [
+      "国画大师",
+      "泼墨泼彩"
+    ],
+    "biography": "中国近代最杰出的画家之一，\"五百年来一大千\"",
+    "evaluation": "中国近代最杰出的画家之一，\"五百年来一大千\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "徐悲鸿",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1953,
+    "title": "中央美术学院院长",
+    "achievements": [
+      "画马大师",
+      "美术教育"
+    ],
+    "biography": "中国近代最杰出的画家和美术教育家，以画马闻名",
+    "evaluation": "中国近代最杰出的画家和美术教育家，以画马闻名",
+    "general_type": "civil"
+  },
+  {
+    "name": "黄宾虹",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1865,
+    "death_year": 1955,
+    "title": "画家",
+    "achievements": [
+      "国画大师",
+      "山水画"
+    ],
+    "biography": "中国近代最杰出的山水画大师",
+    "evaluation": "中国近代最杰出的山水画大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "潘天寿",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1971,
+    "title": "浙江美术学院院长",
+    "achievements": [
+      "国画大师",
+      "花鸟画"
+    ],
+    "biography": "中国近代最杰出的花鸟画大师",
+    "evaluation": "中国近代最杰出的花鸟画大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "傅抱石",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1965,
+    "title": "江苏省国画院院长",
+    "achievements": [
+      "国画大师",
+      "山水画"
+    ],
+    "biography": "中国近代最杰出的山水画大师",
+    "evaluation": "中国近代最杰出的山水画大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "李可染",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1907,
+    "death_year": 1989,
+    "title": "中央美术学院教授",
+    "achievements": [
+      "国画大师",
+      "山水画"
+    ],
+    "biography": "中国近代最杰出的山水画大师",
+    "evaluation": "中国近代最杰出的山水画大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "梅兰芳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1894,
+    "death_year": 1961,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "梅派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"梅派\"创始人，中国文化的代表",
+    "evaluation": "中国京剧表演艺术大师，\"梅派\"创始人，中国文化的代表",
+    "general_type": "civil"
+  },
+  {
+    "name": "程砚秋",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1958,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "程派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"程派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"程派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "荀慧生",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1968,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "荀派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"荀派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"荀派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "尚小云",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1976,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "尚派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"尚派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"尚派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "余叔岩",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1943,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "余派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"余派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"余派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "马连良",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1901,
+    "death_year": 1966,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "马派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"马派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"马派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "周信芳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1975,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "麒派"
+    ],
+    "biography": "中国京剧表演艺术大师，\"麒派\"创始人",
+    "evaluation": "中国京剧表演艺术大师，\"麒派\"创始人",
+    "general_type": "civil"
+  },
+  {
+    "name": "盖叫天",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1888,
+    "death_year": 1971,
+    "title": "京剧大师",
+    "achievements": [
+      "京剧表演艺术家",
+      "武生"
+    ],
+    "biography": "中国京剧武生表演艺术大师",
+    "evaluation": "中国京剧武生表演艺术大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "聂耳",
+    "dynasty": "民国",
+    "era": "民国",
+    "birth_year": 1912,
+    "death_year": 1935,
+    "title": "作曲家",
+    "achievements": [
+      "《义勇军进行曲》",
+      "人民音乐家"
+    ],
+    "biography": "《义勇军进行曲》（国歌）的作曲者",
+    "evaluation": "《义勇军进行曲》（国歌）的作曲者",
+    "general_type": "civil"
+  },
+  {
+    "name": "冼星海",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1945,
+    "title": "作曲家",
+    "achievements": [
+      "《黄河大合唱》",
+      "人民音乐家"
+    ],
+    "biography": "《黄河大合唱》的作曲者，人民音乐家",
+    "evaluation": "《黄河大合唱》的作曲者，人民音乐家",
+    "general_type": "civil"
+  },
+  {
+    "name": "阿炳",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1893,
+    "death_year": 1950,
+    "title": "民间音乐家",
+    "achievements": [
+      "《二泉映月》"
+    ],
+    "biography": "民间音乐家，《二泉映月》的创作者",
+    "evaluation": "民间音乐家，《二泉映月》的创作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "赵丹",
+    "dynasty": "民国",
+    "era": "民国",
+    "birth_year": 1915,
+    "death_year": 1980,
+    "title": "电影演员",
+    "achievements": [
+      "电影表演艺术家"
+    ],
+    "biography": "中国电影表演艺术大师",
+    "evaluation": "中国电影表演艺术大师",
+    "general_type": "civil"
+  },
+  {
+    "name": "阮玲玉",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1910,
+    "death_year": 1935,
+    "title": "电影演员",
+    "achievements": [
+      "电影表演艺术家"
+    ],
+    "biography": "中国无声电影时代最杰出的女演员",
+    "evaluation": "中国无声电影时代最杰出的女演员",
+    "general_type": "civil"
+  },
+  {
+    "name": "蝴蝶",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1908,
+    "death_year": 1989,
+    "title": "电影演员",
+    "achievements": [
+      "电影皇后"
+    ],
+    "biography": "中国早期电影最著名的女演员，\"电影皇后\"",
+    "evaluation": "中国早期电影最著名的女演员，\"电影皇后\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "茅盾",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1981,
+    "title": "文化部部长",
+    "achievements": [
+      "《子夜》",
+      "文学家"
+    ],
+    "biography": "中国近代最杰出的文学家之一，《子夜》作者",
+    "evaluation": "中国近代最杰出的文学家之一，《子夜》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "巴金",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 2005,
+    "title": "中国作协主席",
+    "achievements": [
+      "《家》《春》《秋》",
+      "文学家"
+    ],
+    "biography": "中国近代最杰出的文学家之一，《激流三部曲》作者",
+    "evaluation": "中国近代最杰出的文学家之一，《激流三部曲》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "老舍",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1966,
+    "title": "中国作协副主席",
+    "achievements": [
+      "《骆驼祥子》",
+      "《茶馆》"
+    ],
+    "biography": "中国近代最杰出的文学家之一，\"人民艺术家\"",
+    "evaluation": "中国近代最杰出的文学家之一，\"人民艺术家\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "曹禺",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1910,
+    "death_year": 1996,
+    "title": "北京人民艺术剧院院长",
+    "achievements": [
+      "《雷雨》",
+      "戏剧家"
+    ],
+    "biography": "中国近代最杰出的戏剧家，《雷雨》作者",
+    "evaluation": "中国近代最杰出的戏剧家，《雷雨》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "沈从文",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1902,
+    "death_year": 1988,
+    "title": "作家",
+    "achievements": [
+      "《边城》",
+      "文学家"
+    ],
+    "biography": "中国近代最杰出的文学家之一，《边城》作者",
+    "evaluation": "中国近代最杰出的文学家之一，《边城》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "丁玲",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1904,
+    "death_year": 1986,
+    "title": "中国作协副主席",
+    "achievements": [
+      "《太阳照在桑干河上》",
+      "文学家"
+    ],
+    "biography": "中国近代最杰出的女作家之一",
+    "evaluation": "中国近代最杰出的女作家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "张爱玲",
+    "dynasty": "民国",
+    "era": "民国",
+    "birth_year": 1920,
+    "death_year": 1995,
+    "title": "作家",
+    "achievements": [
+      "《倾城之恋》",
+      "《金锁记》"
+    ],
+    "biography": "中国近代最杰出的女作家之一，\"出名要趁早\"",
+    "evaluation": "中国近代最杰出的女作家之一，\"出名要趁早\"",
+    "general_type": "civil"
+  },
+  {
+    "name": "萧红",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1911,
+    "death_year": 1942,
+    "title": "作家",
+    "achievements": [
+      "《呼兰河传》",
+      "《生死场》"
+    ],
+    "biography": "中国近代最杰出的女作家之一",
+    "evaluation": "中国近代最杰出的女作家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "闻一多",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1899,
+    "death_year": 1946,
+    "title": "西南联大教授",
+    "achievements": [
+      "诗人",
+      "学者",
+      "民主斗士"
+    ],
+    "biography": "中国近代最杰出的诗人和学者之一",
+    "evaluation": "中国近代最杰出的诗人和学者之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "徐志摩",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1897,
+    "death_year": 1931,
+    "title": "诗人",
+    "achievements": [
+      "新月派诗人",
+      "《再别康桥》"
+    ],
+    "biography": "中国近代最杰出的诗人之一，新月派代表",
+    "evaluation": "中国近代最杰出的诗人之一，新月派代表",
+    "general_type": "civil"
+  },
+  {
+    "name": "戴望舒",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1950,
+    "title": "诗人",
+    "achievements": [
+      "《雨巷》",
+      "现代派诗人"
+    ],
+    "biography": "中国近代最杰出的诗人之一，《雨巷》作者",
+    "evaluation": "中国近代最杰出的诗人之一，《雨巷》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "艾青",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1910,
+    "death_year": 1996,
+    "title": "诗人",
+    "achievements": [
+      "《大堰河》",
+      "人民诗人"
+    ],
+    "biography": "中国近代最杰出的诗人之一",
+    "evaluation": "中国近代最杰出的诗人之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "郭沫若",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1892,
+    "death_year": 1978,
+    "title": "中国科学院院长",
+    "achievements": [
+      "《女神》",
+      "考古学家",
+      "历史学家"
+    ],
+    "biography": "中国近代最杰出的学者和文学家之一",
+    "evaluation": "中国近代最杰出的学者和文学家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "郁达夫",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1896,
+    "death_year": 1945,
+    "title": "作家",
+    "achievements": [
+      "《沉沦》",
+      "创造社"
+    ],
+    "biography": "中国近代最杰出的作家之一",
+    "evaluation": "中国近代最杰出的作家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "林语堂",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1976,
+    "title": "作家",
+    "achievements": [
+      "《京华烟云》",
+      "幽默大师"
+    ],
+    "biography": "中国近代最杰出的作家和学者之一",
+    "evaluation": "中国近代最杰出的作家和学者之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "梁实秋",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1903,
+    "death_year": 1987,
+    "title": "翻译家",
+    "achievements": [
+      "翻译《莎士比亚全集》",
+      "散文家"
+    ],
+    "biography": "中国近代最杰出的翻译家和散文家",
+    "evaluation": "中国近代最杰出的翻译家和散文家",
+    "general_type": "civil"
+  },
+  {
+    "name": "冰心",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1900,
+    "death_year": 1999,
+    "title": "作家",
+    "achievements": [
+      "《繁星》《春水》",
+      "儿童文学"
+    ],
+    "biography": "中国近代最杰出的女作家之一，儿童文学的奠基人",
+    "evaluation": "中国近代最杰出的女作家之一，儿童文学的奠基人",
+    "general_type": "civil"
+  },
+  {
+    "name": "朱自清",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1948,
+    "title": "清华大学教授",
+    "achievements": [
+      "《背影》",
+      "《荷塘月色》"
+    ],
+    "biography": "中国近代最杰出的散文家之一",
+    "evaluation": "中国近代最杰出的散文家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "丰子恺",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1898,
+    "death_year": 1975,
+    "title": "画家",
+    "achievements": [
+      "漫画家",
+      "散文家"
+    ],
+    "biography": "中国近代最杰出的漫画家和散文家",
+    "evaluation": "中国近代最杰出的漫画家和散文家",
+    "general_type": "civil"
+  },
+  {
+    "name": "叶圣陶",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1894,
+    "death_year": 1988,
+    "title": "教育部副部长",
+    "achievements": [
+      "教育家",
+      "作家"
+    ],
+    "biography": "中国近代最杰出的教育家和作家之一",
+    "evaluation": "中国近代最杰出的教育家和作家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "夏丏尊",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1886,
+    "death_year": 1946,
+    "title": "教育家",
+    "achievements": [
+      "教育家",
+      "出版家"
+    ],
+    "biography": "中国近代著名教育家",
+    "evaluation": "中国近代著名教育家",
+    "general_type": "civil"
+  },
+  {
+    "name": "陈望道",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1891,
+    "death_year": 1977,
+    "title": "复旦大学校长",
+    "achievements": [
+      "翻译《共产党宣言》",
+      "教育家"
+    ],
+    "biography": "《共产党宣言》第一个中文全译本的翻译者",
+    "evaluation": "《共产党宣言》第一个中文全译本的翻译者",
+    "general_type": "civil"
+  },
+  {
+    "name": "邹韬奋",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1895,
+    "death_year": 1944,
+    "title": "记者",
+    "achievements": [
+      "新闻出版",
+      "七君子"
+    ],
+    "biography": "中国近代最杰出的新闻出版家之一",
+    "evaluation": "中国近代最杰出的新闻出版家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "范长江",
+    "dynasty": "民国",
+    "era": "清",
+    "birth_year": 1909,
+    "death_year": 1970,
+    "title": "人民日报社长",
+    "achievements": [
+      "新闻家",
+      "中国的名记者"
+    ],
+    "biography": "中国近代最杰出的新闻家之一",
+    "evaluation": "中国近代最杰出的新闻家之一",
+    "general_type": "civil"
+  },
+  {
+    "name": "斯诺",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1905,
+    "death_year": 1972,
+    "title": "记者",
+    "achievements": [
+      "《红星照耀中国》"
+    ],
+    "biography": "美国著名记者，《红星照耀中国》作者",
+    "evaluation": "美国著名记者，《红星照耀中国》作者",
+    "general_type": "civil"
+  },
+  {
+    "name": "白求恩",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1890,
+    "death_year": 1939,
+    "title": "医生",
+    "achievements": [
+      "国际主义战士",
+      "抗战医疗"
+    ],
+    "biography": "加拿大医生，国际主义战士，为中国抗战献出生命",
+    "evaluation": "加拿大医生，国际主义战士，为中国抗战献出生命",
+    "general_type": "civil"
+  },
+  {
+    "name": "柯棣华",
+    "dynasty": "清",
+    "era": "清",
+    "birth_year": 1910,
+    "death_year": 1942,
+    "title": "医生",
+    "achievements": [
+      "国际主义战士",
+      "抗战医疗"
+    ],
+    "biography": "印度医生，国际主义战士，为中国抗战献出生命",
+    "evaluation": "印度医生，国际主义战士，为中国抗战献出生命",
+    "general_type": "civil"
   }
 ]
