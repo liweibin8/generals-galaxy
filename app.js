@@ -528,6 +528,10 @@
 
         canvas.addEventListener('click', () => {
             if (hoveredIndex >= 0) {
+                // 清除之前的高亮
+                if (highlightedIndex >= 0 && highlightedIndex !== hoveredIndex) {
+                    highlightedIndex = -1;
+                }
                 highlightedIndex = hoveredIndex;
                 selectGeneral(hoveredIndex);
             }
@@ -664,7 +668,7 @@
         const z = pos.array[index * 3 + 2];
 
         const dist = Math.sqrt(x * x + y * y + z * z);
-        targetSpherical.radius = Math.max(20, dist * 0.35);
+        targetSpherical.radius = Math.max(15, dist * 0.2);
         targetSpherical.theta = Math.atan2(z, x);
         const r = Math.sqrt(x * x + y * y + z * z);
         targetSpherical.phi = r > 0 ? Math.acos(Math.max(-1, Math.min(1, y / r))) : Math.PI / 2;
@@ -756,18 +760,6 @@
     }
 
     function clearHighlight() {
-        if (highlightedIndex >= 0 && galaxyPoints) {
-            const sizes = galaxyPoints.geometry.attributes.size;
-            const colors = galaxyPoints.geometry.attributes.color;
-            const origSizes = galaxyPoints.userData.originalSizes;
-            const origColors = galaxyPoints.userData.originalColors;
-            sizes.array[highlightedIndex] = origSizes[highlightedIndex];
-            colors.array[highlightedIndex * 3] = origColors[highlightedIndex * 3];
-            colors.array[highlightedIndex * 3 + 1] = origColors[highlightedIndex * 3 + 1];
-            colors.array[highlightedIndex * 3 + 2] = origColors[highlightedIndex * 3 + 2];
-            sizes.needsUpdate = true;
-            colors.needsUpdate = true;
-        }
         highlightedIndex = -1;
     }
 
@@ -846,27 +838,17 @@
             galaxyPoints.rotation.y = Math.sin(animationTime * 0.03) * 0.005;
         }
 
-        // 搜索高亮：超级巨大化 + 相机环绕
+        // 选中星星：视角拉近 + 相机环绕（不改变星星大小和颜色）
         if (galaxyPoints && highlightedIndex >= 0) {
-            const sizes = galaxyPoints.geometry.attributes.size;
-            const colors = galaxyPoints.geometry.attributes.color;
             const positions = galaxyPoints.geometry.attributes.position;
-            const origSizes = galaxyPoints.userData.originalSizes;
-            const origColors = galaxyPoints.userData.originalColors;
-            const pulse = 1.0 + Math.sin(animationTime * 2) * 0.2;
-            // 150倍巨大化，耀眼光芒
-            sizes.array[highlightedIndex] = origSizes[highlightedIndex] * 150 * pulse;
-            colors.array[highlightedIndex * 3] = Math.min(1.0, origColors[highlightedIndex * 3] * 10);
-            colors.array[highlightedIndex * 3 + 1] = Math.min(1.0, origColors[highlightedIndex * 3 + 1] * 10);
-            colors.array[highlightedIndex * 3 + 2] = Math.min(1.0, origColors[highlightedIndex * 3 + 2] * 10);
-            sizes.needsUpdate = true;
-            colors.needsUpdate = true;
-
-            // 相机环绕这颗星旋转
             const sx = positions.array[highlightedIndex * 3];
             const sy = positions.array[highlightedIndex * 3 + 1];
             const sz = positions.array[highlightedIndex * 3 + 2];
+            // 相机注视点移向这颗星
             targetCameraTarget.set(sx, sy, sz);
+            // 视野拉近
+            const starDist = Math.sqrt(sx * sx + sy * sy + sz * sz);
+            targetSpherical.radius = Math.max(15, starDist * 0.2);
             isAutoRotating = true;
         }
 
