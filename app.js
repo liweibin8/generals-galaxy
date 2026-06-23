@@ -1,6 +1,6 @@
 /**
- * 将星河 · 中国古代将军三维星系可视化
- * Three.js WebGL 3D Galaxy of Chinese Generals
+ * 将星河 · 古代人物三维星系可视化
+ * Three.js WebGL 3D Galaxy of Chinese Historical Figures
  * v2 - 优化旋臂结构
  */
 
@@ -447,47 +447,56 @@
             setTimeout(() => { if (!isDragging) isAutoRotating = true; }, 5000);
         });
 
+        // ===== Anchor Under Mouse 缩放 =====
         canvas.addEventListener('wheel', (e) => {
             e.preventDefault();
-            
-            const zoomDelta = e.deltaY * 0.001;
+
+            const zoomFactor = 1 + e.deltaY * 0.001;
             const newRadius = Math.max(
                 CONFIG.camera.minDistance,
                 Math.min(CONFIG.camera.maxDistance,
-                    targetSpherical.radius * (1 + zoomDelta))
+                    targetSpherical.radius * zoomFactor)
             );
+
+            // Anchor Under Mouse 核心算法：
+            // 1. 从鼠标位置发射射线
+            // 2. 求射线与穿过 cameraTarget 的平面的交点 P
+            // 3. 缩放后，调整 cameraTarget 使得 P 仍然在鼠标下方
             
-            // 根据鼠标在屏幕上的位置计算缩放目标点
-            // 鼠标在屏幕中心 = 不移动，鼠标在边缘 = 向那个方向移动
-            const mx = (e.clientX / window.innerWidth) * 2 - 1;  // [-1, 1]
-            const my = -(e.clientY / window.innerHeight) * 2 + 1;  // [-1, 1]
+            const ndcX = (e.clientX / window.innerWidth) * 2 - 1;
+            const ndcY = -(e.clientY / window.innerHeight) * 2 + 1;
             
-            // 计算相机的右向量和上向量
-            const cameraDirection = new THREE.Vector3();
-            camera.getWorldDirection(cameraDirection);
-            const cameraRight = new THREE.Vector3().crossVectors(cameraDirection, camera.up).normalize();
-            const cameraUp = new THREE.Vector3().crossVectors(cameraRight, cameraDirection).normalize();
+            const tempRaycaster = new THREE.Raycaster();
+            tempRaycaster.setFromCamera(new THREE.Vector2(ndcX, ndcY), camera);
             
-            // 根据鼠标偏移计算目标点偏移
-            const offsetScale = newRadius * 0.15;  // 偏移量与距离成正比
-            const targetOffset = new THREE.Vector3()
-                .addScaledVector(cameraRight, mx * offsetScale)
-                .addScaledVector(cameraUp, my * offsetScale);
+            // 构造一个过 cameraTarget、法线为视线方向的平面
+            const viewDir = new THREE.Vector3();
+            camera.getWorldDirection(viewDir);
+            const plane = new THREE.Plane();
+            plane.setFromNormalAndCoplanarPoint(viewDir, cameraTarget);
             
-            // 放大时向鼠标位置靠近，缩小时远离
-            if (zoomDelta < 0) {
-                // 放大：向鼠标指向的方向移动
-                targetCameraTarget.add(targetOffset.multiplyScalar(0.3));
-            } else {
-                // 缩小：向相反方向移动
-                targetCameraTarget.add(targetOffset.multiplyScalar(-0.15));
+            // 求交点
+            const anchorPoint = new THREE.Vector3();
+            const hit = tempRaycaster.ray.intersectPlane(plane, anchorPoint);
+            
+            if (hit) {
+                // ratio = 新距离/旧距离
+                const ratio = newRadius / targetSpherical.radius;
+                
+                // 公式：newTarget = anchorPoint + (target - anchorPoint) * ratio
+                // 等价于：shift = (anchorPoint - target) * (1 - ratio)
+                const shift = new THREE.Vector3()
+                    .subVectors(anchorPoint, cameraTarget)
+                    .multiplyScalar(1 - ratio);
+                
+                targetCameraTarget.add(shift);
+                
+                // 限制范围
+                const maxOffset = 200;
+                targetCameraTarget.x = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.x));
+                targetCameraTarget.y = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.y));
+                targetCameraTarget.z = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.z));
             }
-            
-            // 限制目标点范围
-            const maxOffset = 200;
-            targetCameraTarget.x = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.x));
-            targetCameraTarget.y = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.y));
-            targetCameraTarget.z = Math.max(-maxOffset, Math.min(maxOffset, targetCameraTarget.z));
             
             targetSpherical.radius = newRadius;
         }, { passive: false });
